@@ -46,6 +46,29 @@ html {
     margin-left: auto;
 }
 
+.draft {
+    padding-bottom: 1em;
+}
+
+.td {
+    font-size: x-large;
+}
+
+.team {
+    text-align: left;
+}
+
+.player {
+    text-align: right;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 34%;
+    font-size: x-large;
+}
+
 @media (min-width: 768px) {
     .container {
         width: 750px;

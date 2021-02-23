@@ -5,7 +5,40 @@
 <body>
 <c:import url="nav.jsp" />
 
-
+    <div class="draft container">
+<%--        This will be the most likely format of each draft on the home page--%>
+<%--        <h2>${title}</h2>--%>
+<%--        <table>--%>
+<%--            <tr>--%>
+<%--                <td>1. ${firstTeam}</td>--%>
+<%--                <td>${firstPick}</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td>2. ${secondTeam}</td>--%>
+<%--                <td>${secondPick}</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td>3. ${thirdTeam}</td>--%>
+<%--                <td>${thirdPick}</td>--%>
+<%--            </tr>--%>
+<%--        </table>--%>
+        <h2>My first draft</h2>
+        <p class="user">User: Belloche</p>
+        <table>
+            <tr>
+                <td class="team">1. Jaguars</td>
+                <td class="player">Trevor Lawrence</td>
+            </tr>
+            <tr>
+                <td class="team">2. Jets</td>
+                <td class="player">Justin Fields</td>
+            </tr>
+            <tr>
+                <td class="team">3. Dolphins</td>
+                <td class="player">Penei Sowell</td>
+            </tr>
+        </table>
+    </div>
 
 
 
