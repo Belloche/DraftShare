@@ -65,22 +65,40 @@ html {
 table {
     margin-right: auto;
     margin-left: auto;
-    width: 34%;
+    width: 50%;
     font-size: x-large;
+}
+
+.viewDraft {}
+
+.upvoteCount {
+    color: green;
+}
+.downvoteCount {
+    color: darkred;
 }
 
 @media (min-width: 768px) {
     .container {
         width: 750px;
     }
+    .draft {
+        width: 503px;
+    }
 }
 @media (min-width: 992px) {
     .container {
         width: 970px;
     }
+    .draft {
+        width: 665px;
+    }
 }
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
+    }
+    .draft {
+        width: 804px;
     }
 }

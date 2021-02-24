@@ -24,6 +24,7 @@
 <%--        </table>--%>
         <h2>My first draft</h2>
         <p class="user">User: Belloche</p>
+        <p>Votes: <span class="upvoteCount">10</span> | <span class="downvoteCount">3</span></p>
         <table>
             <tr>
                 <td class="team">1. Jaguars</td>
@@ -38,6 +39,7 @@
                 <td class="player">Penei Sowell</td>
             </tr>
         </table>
+    <a href="viewDraft.jsp" class="viewDraft">View Full Draft</a>
     </div>
 
 
