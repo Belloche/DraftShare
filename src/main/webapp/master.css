@@ -50,8 +50,9 @@ html {
     padding-bottom: 1em;
 }
 
-.td {
-    font-size: x-large;
+.fullDraftRow {
+    border-bottom: solid black 3px;
+    padding-bottom: 8px;
 }
 
 .team {
@@ -59,17 +60,23 @@ html {
 }
 
 .player {
-    text-align: right;
+    text-align: center;
 }
 
 table {
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
     font-size: x-large;
+    border-collapse: collapse;
 }
 
-.viewDraft {}
+.thumbnail {
+    width: 50%;
+}
+
+.fullDraft {
+    width: 90%;
+}
 
 .upvoteCount {
     color: green;
@@ -77,6 +84,8 @@ table {
 .downvoteCount {
     color: darkred;
 }
+
+.
 
 @media (min-width: 768px) {
     .container {

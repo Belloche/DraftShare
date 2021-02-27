@@ -16,3 +16,18 @@ Week 2
 Created my repository
 
 After some trouble getting my project created properly I finally have it pushed to git.
+
+Week 4
+2/9/2021
+
+I finished up what I want the project to do without overextending and started choosing a color scheme
+
+Week 5
+2/19/2021
+
+Got sick and only got index.jsp completed, but the visual is just about what I want. Visual right now is only a reference template but gets across what it will look like
+
+Week 6
+2/26/2021
+
+Got sick again which is unfortunate, got viewDraft.jsp in with another template. I think I can do this pretty well now.
