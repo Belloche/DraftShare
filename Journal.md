@@ -31,3 +31,8 @@ Week 6
 2/26/2021
 
 Got sick again which is unfortunate, got viewDraft.jsp in with another template. I think I can do this pretty well now.
+
+Week 7
+3/2/2021
+
+I created the database for the project, now for the DAO. Will update this entry when it is completed.
