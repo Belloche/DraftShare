@@ -1,10 +1,11 @@
 package Persistence;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import student.application.persistence.DraftDao;
+import testUtils.Database;
 
 public class DraftDaoTest {
-
+    DraftDao dao;
 
     @BeforeEach
     void setUp() {
@@ -12,6 +13,6 @@ public class DraftDaoTest {
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
 
-        dao = new BookDao();
+        dao = new DraftDao();
     }
 }
