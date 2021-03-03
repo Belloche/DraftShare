@@ -5,7 +5,13 @@ import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import Entity.Draft;
+import student.application.entity.Draft;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+import javax.transaction.Transaction;
+import java.util.List;
 
 /**
  * The type Draft dao.
