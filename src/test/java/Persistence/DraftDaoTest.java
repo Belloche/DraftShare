@@ -24,5 +24,6 @@ public class DraftDaoTest {
     void getByIdSuccess() {
         Draft retrievedDraft = dao.getById(1);
         assertEquals(1, retrievedDraft.getId());
+        assertEquals("testDraft", retrievedDraft.getDraftName());
     }
 }
