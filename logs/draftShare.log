@@ -63,3 +63,5 @@
 [DEBUG] 2021-03-09 21:06:00.130 [main] DraftDao - The list of Drafts: [student.application.entity.Draft@8ac512e, student.application.entity.Draft@4bbc21bd]
 [DEBUG] 2021-03-09 21:07:12.604 [http-nio-8080-exec-14] DraftDao - The list of Drafts: [student.application.entity.Draft@7a21451a, student.application.entity.Draft@61650e6a, student.application.entity.Draft@f4ea41d]
 [DEBUG] 2021-03-09 21:08:16.152 [main] DraftDao - The list of Drafts: [student.application.entity.Draft@47198524, student.application.entity.Draft@67a0ff25]
+[DEBUG] 2021-03-09 21:26:24.319 [main] DraftDao - The list of Drafts: [student.application.entity.Draft@47198524, student.application.entity.Draft@67a0ff25]
+[DEBUG] 2021-03-09 21:30:30.334 [main] DraftDao - The list of Drafts: [student.application.entity.Draft@8ac512e, student.application.entity.Draft@4bbc21bd]
