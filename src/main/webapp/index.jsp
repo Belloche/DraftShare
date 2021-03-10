@@ -4,8 +4,29 @@
 <link rel="stylesheet" href="master.css" />
 <body>
 <c:import url="nav.jsp" />
-
-    <div class="draft container">
+    <c:forEach var="draft" items="${drafts}">
+        <div class="container">
+            <h2>${draft.getDraftName()}</h2>
+            <p>User: ${draft.getUser()}</p>
+            <table class="thumbnail">
+                <tr>
+                    <td class="team">1. ${draft.getTeam1()}</td>
+                    <td class="player">${draft.getPick1()}</td>
+                </tr>
+                <tr>
+                    <td class="team">2. ${draft.getTeam2()}</td>
+                    <td class="player">${draft.getPick2()}</td>
+                </tr>
+                <tr>
+                    <td class="team">3. ${draft.getTeam3()}</td>
+                    <td class="player">${draft.getPick3()}</td>
+                </tr>
+            </table>
+            <p>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></p>
+            <a href="viewDraft.jsp">View Full Draft</a>
+        </div>
+    </c:forEach>
+<%--    <div class="draft container">--%>
 <%--        This will be the most likely format of each draft on the home page--%>
 <%--        <h2>${title}</h2>--%>
 <%--        <table>--%>
@@ -22,25 +43,25 @@
 <%--                <td>${thirdPick}</td>--%>
 <%--            </tr>--%>
 <%--        </table>--%>
-        <h2>My first draft</h2>
-        <p>User: Belloche</p>
-        <p>Votes: <span class="upvoteCount">10</span> | <span class="downvoteCount">3</span></p>
-        <table class="thumbnail">
-            <tr>
-                <td class="team">1. Jaguars</td>
-                <td class="player">Trevor Lawrence</td>
-            </tr>
-            <tr>
-                <td class="team">2. Jets</td>
-                <td class="player">Justin Fields</td>
-            </tr>
-            <tr>
-                <td class="team">3. Dolphins</td>
-                <td class="player">Penei Sowell</td>
-            </tr>
-        </table>
-    <a href="viewDraft.jsp">View Full Draft</a>
-    </div>
+<%--        <h2>My first draft</h2>--%>
+<%--        <p>User: Belloche</p>--%>
+<%--        <p>Votes: <span class="upvoteCount">10</span> | <span class="downvoteCount">3</span></p>--%>
+<%--        <table class="thumbnail">--%>
+<%--            <tr>--%>
+<%--                <td class="team">1. Jaguars</td>--%>
+<%--                <td class="player">Trevor Lawrence</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="team">2. Jets</td>--%>
+<%--                <td class="player">Justin Fields</td>--%>
+<%--            </tr>--%>
+<%--            <tr>--%>
+<%--                <td class="team">3. Dolphins</td>--%>
+<%--                <td class="player">Penei Sowell</td>--%>
+<%--            </tr>--%>
+<%--        </table>--%>
+<%--    <a href="viewDraft.jsp">View Full Draft</a>--%>
+<%--    </div>--%>
 
 
 

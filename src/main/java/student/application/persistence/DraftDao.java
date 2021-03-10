@@ -92,7 +92,8 @@ public class DraftDao {
         Root<Draft> root = query.from( Draft.class );
         List<Draft> Drafts = session.createQuery( query ).getResultList();
 
-        logger.debug("The list of Books " + Drafts);
+        logger.debug("The list of Drafts: " + Drafts);
+
         session.close();
 
         return Drafts;

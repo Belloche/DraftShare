@@ -1390,5 +1390,4 @@ public class Draft {
         this.uni32 = uni32;
     }
 
-
 }
