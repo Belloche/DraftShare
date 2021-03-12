@@ -2,36 +2,36 @@
 
 ### Week 4
 - [ ] List technologies that will be used
-- [ ] Write project plan
-- [ ] Weekly Reflection
-- [ ] Problem Statement
+- [x] Write project plan
+- [x] Weekly Reflection
+- [x] Problem Statement
 - [ ] Determine web api's to use
-- [ ] Submit for Checkpoint 1
-- [ ] Create wireframes (paper and pencil)
-- [ ] Weekly Journal Update
-- [ ] Weekly Reflection
+- [x] Submit for Checkpoint 1
+- [x] Create wireframes (paper and pencil)
+- [x] Weekly Journal Update
+- [x] Weekly Reflection
 
 ### Weeks 5 - 8
-- [ ] Create database
-- [ ] Design CSS
+- [x] Create database
+- [x] Design CSS
 - [ ] new user jsp
-- [ ] user controller java
-- [ ] user entity java
+- [x] user controller java
+- [x] user entity java
 - [ ] sign in jsp
 - [ ] sign up jsp
-- [ ] home page jsp
-- [ ] design mock draft thumbnail (for crowding mitigation)
-- [ ] user dao
-- [ ] Submit for Checkpoint 2
-- [ ] Weekly Journal Updates
-- [ ] Weekly Reflections
+- [x] home page jsp
+- [x] design mock draft thumbnail (for crowding mitigation)
+- [x] user dao
+- [x] Submit for Checkpoint 2
+- [x] Weekly Journal Updates
+- [x] Weekly Reflections
 
 ### Weeks 9 - 12
-- [ ] Draft creator jsp
+- [x] Draft creator jsp
 - [ ] password reset
 - [ ] upvoting
 - [ ] user search
-- [ ] deploy to aws
+- [x] deploy to aws
 - [ ] Weekly Reflections
 
 ### Weeks 13-16

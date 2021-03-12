@@ -36,3 +36,8 @@ Week 7
 3/2/2021
 
 I created the database for the project, now for the DAO. Will update this entry when it is completed.
+
+Week 8
+3/9/2021
+
+I missed this entry when I was working, but I have deployed the project to AWS. I also fleshed out the home page a bit and the thumbnail on the site is data from the database on AWS. The Full Draft page is still hardcoded but I will be getting to that. Next week when I get back from my vacation I will be implementing a login for Checkpoint 3.
