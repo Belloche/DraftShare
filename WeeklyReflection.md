@@ -31,3 +31,12 @@ Tasks Completed:
 
 I updated my time log and journal, but not the weekly reflections, that's on me. I've been having issues in my body. I've been breaking down, getting a weekly migraine, and that's on top of my usual procrastination.
 I did however get caught up on work this week, and I plan on doing extra work over spring break for checkpoint 3.
+
+### Week 9
+3-23-21
+
+Tasks Completed:
+* Created a better database for users and roles
+* Added user authentication
+
+As I'm writing this I haven't pushed it to AWS yet, but as soon as I get this pushed to Git I will create the necessary tables in AWS and get it working.

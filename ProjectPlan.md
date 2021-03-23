@@ -17,7 +17,7 @@
 - [ ] new user jsp
 - [x] user controller java
 - [x] user entity java
-- [ ] sign in jsp
+- [x] sign in jsp
 - [ ] sign up jsp
 - [x] home page jsp
 - [x] design mock draft thumbnail (for crowding mitigation)
@@ -32,7 +32,7 @@
 - [ ] upvoting
 - [ ] user search
 - [x] deploy to aws
-- [ ] Weekly Reflections
+- [x] Weekly Reflections
 
 ### Weeks 13-16
 - [ ] add team logos to editor

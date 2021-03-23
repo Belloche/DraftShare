@@ -7,3 +7,4 @@
 | 2-26-21 | Created viewDraft.jsp based off the template (still using template for visual), got sick AGAIN which is not what I like, but I hit my flow now |
 | 3-2-21 | 3 | Created the database for DraftShare, including a users table and a table for the drafts (which has 96 rows just for the picks) | 
 | 3-9-21 | 7 | Deployed to AWS with a page displaying data from the database | Right now I just have one entry and all that is being displayed is the thumbnail, but it will work no problem on the full draft view soon. |
+| 3-23-21 | 3 | Added user authentication for view draft | Right now there is one user and only view draft works for the system currently |

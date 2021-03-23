@@ -15,7 +15,7 @@
 <body>
     <c:import url="nav.jsp" />
     <div class="draft container">
-        <h1>My first draft</h1>
+        <h1>My first draft (Template)</h1>
         <h3 class="user">User: Belloche</h3>
         <h4>Votes: <span class="upvoteCount">10</span> | <span class="downvoteCount">3</span></h4>
         <table class="fullDraft">
