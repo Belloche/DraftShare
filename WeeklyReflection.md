@@ -40,3 +40,19 @@ Tasks Completed:
 * Added user authentication
 
 As I'm writing this I haven't pushed it to AWS yet, but as soon as I get this pushed to Git I will create the necessary tables in AWS and get it working.
+
+### Week 10
+4-1-21
+
+Tasks Completed:
+* Implemented a GenericDao
+
+I implemented a GenericDao so my Draft and User entities don't have to use duped code in separate files.
+
+### Week 11
+4-5-21
+
+Tasks Completed:
+* Removed Login/Sign Up from nav to rework
+
+I've hit a snag where I can't start my project since the @BeforeEach won't call in my tests, but I'm reworking how my users log in so you can create an account from the login form that pops up automatically when you click on restricted content.

@@ -46,3 +46,13 @@ Week 9
 3/23/2021
 
 Last week was Spring Break, and now that I'm back I'm adding login capability to DraftShare and the login page.
+
+Week 10
+4/1/2021
+
+I implemented the GenericDao (ProjectDao.java) finally, should help the project stay a little more contained.
+
+Week 11
+4-5-21
+
+My tests are failing, something is wrong with @BeforeEach and it won't reset the DB to the stock data :(

@@ -17,6 +17,7 @@ import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import student.application.persistence.ProjectDao;
 
 @WebServlet(
         urlPatterns = {"/home"}
@@ -31,7 +32,7 @@ public class homepage extends HttpServlet {
 //        HttpSession session = req.getSession();
 
 //        DraftData draftData = new DraftData();
-        DraftDao dao = new DraftDao();
+        ProjectDao dao = new ProjectDao(Draft.class);
 
         req.setAttribute("drafts", dao.getAll());
 
