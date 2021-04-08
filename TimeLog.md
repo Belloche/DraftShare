@@ -9,3 +9,4 @@
 | 3-9-21 | Deployed to AWS with a page displaying data from the database | 7 | Right now I just have one entry and all that is being displayed is the thumbnail, but it will work no problem on the full draft view soon. |
 | 3-23-21 | Added user authentication for view draft | 3 | Right now there is one user and only view draft works for the system currently |
 | 4-1-21 | Added GenericDao | 2 | I added a GenericDao so I don't have to have as much duped code |
+| 4-7-21 | Fixed test package | 4 | I had to fix the test package Database file, everything passes just fine now |

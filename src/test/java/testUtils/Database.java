@@ -30,7 +30,7 @@ public class Database {
 
     private Connection connection;
 
-    private static final String DATABASE_PROPERTIES_FILE = "/resources/database.properties";
+    private static final String DATABASE_PROPERTIES_FILE = "/database.properties";
 
     /**
      * Create the database class

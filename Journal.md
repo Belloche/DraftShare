@@ -56,3 +56,7 @@ Week 11
 4-5-21
 
 My tests are failing, something is wrong with @BeforeEach and it won't reset the DB to the stock data :(
+
+4-7-21
+
+I finally got my tests passing again! I don't really know what happened with my testUtils Database, but I replaced it with the Database file I have in main and now it runs fine. I also had to modify my update test so it passes.

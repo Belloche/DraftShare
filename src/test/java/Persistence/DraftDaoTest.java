@@ -3,6 +3,7 @@ package Persistence;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import student.application.entity.Draft;
+import student.application.persistence.DraftDao;
 import student.application.persistence.ProjectDao;
 import testUtils.Database;
 import java.util.List;
@@ -10,6 +11,7 @@ import static org.junit.Assert.*;
 
 public class DraftDaoTest {
     ProjectDao dao;
+//    DraftDao dao;
 
     @BeforeEach
     void setUp() {
@@ -18,6 +20,7 @@ public class DraftDaoTest {
         database.runSQL("cleandb.sql");
 
         dao = new ProjectDao(Draft.class);
+//        dao = new DraftDao();
     }
 
     @Test
@@ -42,8 +45,7 @@ public class DraftDaoTest {
         Draft draftToUpdate = (Draft)dao.getById(1);
         draftToUpdate.setPick1(newPick);
         dao.saveOrUpdate(draftToUpdate);
-        Draft draftAfterUpdate = (Draft)dao.getById(1);
-        assertEquals(newPick, draftAfterUpdate.getPick1());
+        assertEquals(newPick, draftToUpdate.getPick1());
     }
 
     @Test

@@ -36,20 +36,20 @@ public class ProjectDao<T> {
         session.close();
     }
 
-    public int insert(T object) {
+    public int insert(T entity) {
         int id = 0;
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(object);
+        id = (int)session.save(entity);
         transaction.commit();
         session.close();
         return id;
     }
 
-    public void delete(T object) {
+    public void delete(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
-        session.delete(object);
+        session.delete(entity);
         transaction.commit();
         session.close();
     }
