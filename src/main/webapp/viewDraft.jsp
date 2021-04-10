@@ -16,9 +16,9 @@
 <p>Id: ${draft.getId()}</p>
     <c:import url="nav.jsp" />
     <div class="draft container">
-        <h1>My first draft (Template)</h1>
-        <h3 class="user">User: Belloche</h3>
-        <h4>Votes: <span class="upvoteCount">10</span> | <span class="downvoteCount">3</span></h4>
+        <h1>${draft.getDraftName()}</h1>
+        <h3 class="user">User: ${draft.getUser()}</h3>
+        <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>
         <table class="fullDraft">
             <tr class="fullDraftRow">
                 <th>Team</th>
@@ -27,134 +27,88 @@
                 <th>College</th>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">1. Jaguars</td>
-                <td class="player">Trevor Lawrence</td>
-                <td>QB</td>
-                <td>Clemson</td>
+                <td class="team">1. ${draft.getTeam1()}</td>
+                <td class="player">${draft.getPick1()}</td>
+                <td>${draft.getPos1()}</td>
+                <td>${draft.getUni1()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">2. Jets</td>
-                <td class="player">Justin Fields</td>
+                <td class="team">2. ${draft.getTeam2()}</td>
+                <td class="player">${draft.getPick2()}</td>
+                <td>${draft.getPos2()}</td>
+                <td>${draft.getUni2()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">3. Dolphins</td>
-                <td class="player">Penei Sowell</td>
+                <td class="team">3. ${draft.getTeam3()}</td>
+                <td class="player">${draft.getPick3()}</td>
+                <td>${draft.getPos3()}</td>
+                <td>${draft.getUni3()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">4. Falcons</td>
-                <td class="player">Zach Wilson</td>
+                <td class="team">4. ${draft.getTeam4()}</td>
+                <td class="player">${draft.getPick4()}</td>
+                <td>${draft.getPos4()}</td>
+                <td>${draft.getUni4()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">5. Bengals</td>
-                <td class="player">Rashawn Slater</td>
+                <td class="team">5. ${draft.getTeam5()}</td>
+                <td class="player">${draft.getPick5()}</td>
+                <td>${draft.getPos5()}</td>
+                <td>${draft.getUni5()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">6. Eagles</td>
-                <td class="player">Devonta Smith</td>
+                <td class="team">6. ${draft.getTeam6()}</td>
+                <td class="player">${draft.getPick6()}</td>
+                <td>${draft.getPos6()}</td>
+                <td>${draft.getUni6()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">7. Lions</td>
-                <td class="player">Trey Lance</td>
+                <td class="team">7. ${draft.getTeam7()}</td>
+                <td class="player">${draft.getPick7()}</td>
+                <td>${draft.getPos7()}</td>
+                <td>${draft.getUni7()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">8. Panthers</td>
-                <td class="player">Kyle Pitts</td>
+                <td class="team">8. ${draft.getTeam8()}</td>
+                <td class="player">${draft.getPick8()}</td>
+                <td>${draft.getPos8()}</td>
+                <td>${draft.getUni8()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">9. Broncos</td>
-                <td class="player">Patrick Surtain II</td>
+                <td class="team">9. ${draft.getTeam9()}</td>
+                <td class="player">${draft.getPick9()}</td>
+                <td>${draft.getPos9()}</td>
+                <td>${draft.getUni9()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">10. Cowboys</td>
-                <td class="player">Micah Parsons</td>
+                <td class="team">10. ${draft.getTeam10()}</td>
+                <td class="player">${draft.getPick10()}</td>
+                <td>${draft.getPos10()}</td>
+                <td>${draft.getUni10()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">11. Giants</td>
-                <td class="player">Caleb Farley</td>
+                <td class="team">11. ${draft.getTeam11()}</td>
+                <td class="player">${draft.getPick11()}</td>
+                <td>${draft.getPos11()}</td>
+                <td>${draft.getUni11()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">12. 49ers</td>
-                <td class="player">Alex Leatherwood</td>
+                <td class="team">12. ${draft.getTeam12()}</td>
+                <td class="player">${draft.getPick12()}</td>
+                <td>${draft.getPos12()}</td>
+                <td>${draft.getUni12()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">13. Chargers</td>
-                <td class="player">Christian Darrisaw</td>
+                <td class="team">13. ${draft.getTeam13()}</td>
+                <td class="player">${draft.getPick13()}</td>
+                <td>${draft.getPos13()}</td>
+                <td>${draft.getUni13()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">14. Vikings</td>
-                <td class="player">Kwity Paye</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">15. Patriots</td>
-                <td class="player">Mac Jones</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">16. Cardinals</td>
-                <td class="player">Jaycee Horn</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">17. Raiders</td>
-                <td class="player">Jeremiah Owusu-Koramoah</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">18. Dolphins</td>
-                <td class="player">Gregory Rousseau</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">19. Washington</td>
-                <td class="player">Ja'Marr Chase</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">20. Bears</td>
-                <td class="player">Jaylen Waddle</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">21. Colts</td>
-                <td class="player">Zaven Collins</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">22. Titans</td>
-                <td class="player">Azeez Ojulari</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">23. Jets</td>
-                <td class="player">Alijah Vera-Tucker</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">24. Steelers</td>
-                <td class="player">Najee Harris</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">25. Jaguars</td>
-                <td class="player">Christian Barmore</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">26. Browns</td>
-                <td class="player">Joseph Ossai</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">27. Ravens</td>
-                <td class="player">Kadarius Toney</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">28. Saints</td>
-                <td class="player">Jaelan Phillips</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">29. Packers</td>
-                <td class="player">Samuel Cosmi</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">30. Bills</td>
-                <td class="player">Nick Bolton</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">31. Chiefs</td>
-                <td class="player">Jalen Mayfield</td>
-            </tr>
-            <tr class="fullDraftRow">
-                <td class="team">32. Buccaneers</td>
-                <td class="player">Wyatt Davis</td>
+                <td class="team">14. ${draft.getTeam14()}</td>
+                <td class="player">${draft.getPick14()}</td>
+                <td>${draft.getPos14()}</td>
+                <td>${draft.getUni14()}</td>
             </tr>
         </table>
     </div>
