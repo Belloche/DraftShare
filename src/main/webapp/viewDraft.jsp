@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="master.css" />
 </head>
 <body>
+<p>Id: ${draft.getId()}</p>
     <c:import url="nav.jsp" />
     <div class="draft container">
         <h1>My first draft (Template)</h1>

@@ -23,7 +23,7 @@
                 </tr>
             </table>
             <p>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></p>
-            <a href="viewDraft.jsp">View Full Draft</a>
+            <a href="viewDraft?draft=${draft.getId()}">View Full Draft</a>
         </div>
     </c:forEach>
 <%--    <div class="draft container">--%>
