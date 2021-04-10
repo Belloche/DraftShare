@@ -45,7 +45,8 @@ public class DraftDaoTest {
         Draft draftToUpdate = (Draft)dao.getById(1);
         draftToUpdate.setPick1(newPick);
         dao.saveOrUpdate(draftToUpdate);
-        assertEquals(newPick, draftToUpdate.getPick1());
+        Draft draftAfterUpdate = (Draft)dao.getById(1);
+        assertEquals(newPick, draftAfterUpdate.getPick1());
     }
 
     @Test

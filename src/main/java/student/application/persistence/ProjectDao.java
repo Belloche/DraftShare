@@ -33,6 +33,7 @@ public class ProjectDao<T> {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(object);
+        transaction.commit();
         session.close();
     }
 
