@@ -110,6 +110,114 @@
                 <td>${draft.getPos14()}</td>
                 <td>${draft.getUni14()}</td>
             </tr>
+            <tr class="fullDraftRow">
+                <td class="team">15. ${draft.getTeam15()}</td>
+                <td class="player">${draft.getPick15()}</td>
+                <td>${draft.getPos15()}</td>
+                <td>${draft.getUni15()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">16. ${draft.getTeam16()}</td>
+                <td class="player">${draft.getPick16()}</td>
+                <td>${draft.getPos16()}</td>
+                <td>${draft.getUni16()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">17. ${draft.getTeam17()}</td>
+                <td class="player">${draft.getPick17()}</td>
+                <td>${draft.getPos17()}</td>
+                <td>${draft.getUni17()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">18. ${draft.getTeam18()}</td>
+                <td class="player">${draft.getPick18()}</td>
+                <td>${draft.getPos18()}</td>
+                <td>${draft.getUni18()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">19. ${draft.getTeam19()}</td>
+                <td class="player">${draft.getPick19()}</td>
+                <td>${draft.getPos19()}</td>
+                <td>${draft.getUni19()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">20. ${draft.getTeam20()}</td>
+                <td class="player">${draft.getPick20()}</td>
+                <td>${draft.getPos20()}</td>
+                <td>${draft.getUni20()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">21. ${draft.getTeam21()}</td>
+                <td class="player">${draft.getPick21()}</td>
+                <td>${draft.getPos21()}</td>
+                <td>${draft.getUni21()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">22. ${draft.getTeam22()}</td>
+                <td class="player">${draft.getPick22()}</td>
+                <td>${draft.getPos22()}</td>
+                <td>${draft.getUni22()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">23. ${draft.getTeam23()}</td>
+                <td class="player">${draft.getPick23()}</td>
+                <td>${draft.getPos23()}</td>
+                <td>${draft.getUni23()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">24. ${draft.getTeam24()}</td>
+                <td class="player">${draft.getPick24()}</td>
+                <td>${draft.getPos24()}</td>
+                <td>${draft.getUni24()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">25. ${draft.getTeam25()}</td>
+                <td class="player">${draft.getPick25()}</td>
+                <td>${draft.getPos25()}</td>
+                <td>${draft.getUni25()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">26. ${draft.getTeam26()}</td>
+                <td class="player">${draft.getPick26()}</td>
+                <td>${draft.getPos26()}</td>
+                <td>${draft.getUni26()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">27. ${draft.getTeam27()}</td>
+                <td class="player">${draft.getPick27()}</td>
+                <td>${draft.getPos27()}</td>
+                <td>${draft.getUni27()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">28. ${draft.getTeam28()}</td>
+                <td class="player">${draft.getPick28()}</td>
+                <td>${draft.getPos28()}</td>
+                <td>${draft.getUni28()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">29. ${draft.getTeam29()}</td>
+                <td class="player">${draft.getPick29()}</td>
+                <td>${draft.getPos29()}</td>
+                <td>${draft.getUni29()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">30. ${draft.getTeam30()}</td>
+                <td class="player">${draft.getPick30()}</td>
+                <td>${draft.getPos30()}</td>
+                <td>${draft.getUni30()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">31. ${draft.getTeam31()}</td>
+                <td class="player">${draft.getPick31()}</td>
+                <td>${draft.getPos31()}</td>
+                <td>${draft.getUni31()}</td>
+            </tr>
+            <tr class="fullDraftRow">
+                <td class="team">32. ${draft.getTeam32()}</td>
+                <td class="player">${draft.getPick32()}</td>
+                <td>${draft.getPos32()}</td>
+                <td>${draft.getUni32()}</td>
+            </tr>
         </table>
     </div>
 </body>
