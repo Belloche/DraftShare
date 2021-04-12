@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="master.css" />
 </head>
 <body>
-<p>Id: ${draft.getId()}</p>
     <c:import url="nav.jsp" />
     <div class="draft container">
         <h1>${draft.getDraftName()}</h1>
@@ -26,8 +25,6 @@
                 <th>Position</th>
                 <th>College</th>
             </tr>
-
-<%--            PUT A FOREACH LOOP HERE THAT OUTPUTS THE ROWS AND ADD ICONS TO THE PICKS--%>
 
             <tr class="fullDraftRow">
                 <td class="team">1. ${draft.getTeam1()}</td>

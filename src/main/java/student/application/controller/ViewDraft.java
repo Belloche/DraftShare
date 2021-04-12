@@ -25,6 +25,7 @@ public class ViewDraft extends HttpServlet {
         int draftParam = Integer.parseInt(req.getParameter("draft"));
 
         req.setAttribute("draft", dao.getById(draftParam));
+        req.setAttribute("dao", dao);
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/viewDraft.jsp");
         dispatcher.forward(req, res);
