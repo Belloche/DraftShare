@@ -10,3 +10,4 @@
 | 3-23-21 | Added user authentication for view draft | 3 | Right now there is one user and only view draft works for the system currently |
 | 4-1-21 | Added GenericDao | 2 | I added a GenericDao so I don't have to have as much duped code |
 | 4-7-21 | Fixed test package | 4 | I had to fix the test package Database file, everything passes just fine now |
+| 4-11-21 | ViewDraft outputs data | 3 | A little more to do so the draft picks are displayed through a loop but ViewDraft does display real data now |

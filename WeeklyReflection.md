@@ -56,3 +56,10 @@ Tasks Completed:
 * Removed Login/Sign Up from nav to rework
 
 I've hit a snag where I can't start my project since the @BeforeEach won't call in my tests, but I'm reworking how my users log in so you can create an account from the login form that pops up automatically when you click on restricted content.
+
+4-11-21
+
+Tasks Completed:
+* Updated ViewDraft to display data from the DB
+
+The ViewDraft page displays real data now, but I need to rework the page to use a loop for each pick so it works better and the file is a lot smaller.

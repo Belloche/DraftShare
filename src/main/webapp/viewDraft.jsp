@@ -26,6 +26,9 @@
                 <th>Position</th>
                 <th>College</th>
             </tr>
+
+<%--            PUT A FOREACH LOOP HERE THAT OUTPUTS THE ROWS AND ADD ICONS TO THE PICKS--%>
+
             <tr class="fullDraftRow">
                 <td class="team">1. ${draft.getTeam1()}</td>
                 <td class="player">${draft.getPick1()}</td>
