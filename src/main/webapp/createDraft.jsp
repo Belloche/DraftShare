@@ -16,7 +16,13 @@
 <body class="bg-dark">
     <c:import url="nav.jsp" />
     <div class="container container-xl bg-white">
-        <form action="/createDraft" class="form">
+        <form action="createDraft" class="form">
+            <label for="draftName"><b>Draft Name</b></label>
+            <input type="text" name="draftName" id="draftName" class="form-control" />
+
+            <label for="description"><b>Description</b></label>
+            <textarea name="description" id="description" rows="2" class="form-control"></textarea>
+
             <table class="fullDraft center table table-responsive">
                 <tr class="fullDraftRow">
                     <th>Pick #</th>
