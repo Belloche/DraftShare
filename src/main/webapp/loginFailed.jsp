@@ -11,6 +11,7 @@
 <head>
     <title>DraftShare - Login Failed</title>
     <link rel="stylesheet" href="master.css" />
+    <c:import url="bootstrap.jsp" />
 </head>
 <body>
     <c:import url="nav.jsp" />

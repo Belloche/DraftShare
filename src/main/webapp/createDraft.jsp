@@ -11,12 +11,13 @@
 <head>
     <title>DraftShare - Create a Draft</title>
     <link rel="stylesheet" href="master.css" />
+    <c:import url="bootstrap.jsp" />
 </head>
-<body>
+<body class="bg-dark">
     <c:import url="nav.jsp" />
-    <div class="container">
-        <form action="/createDraft">
-            <table class="fullDraft center">
+    <div class="container container-xl bg-white">
+        <form action="/createDraft" class="form">
+            <table class="fullDraft center table table-responsive">
                 <tr class="fullDraftRow">
                     <th>Pick #</th>
                     <th>Team</th>
@@ -62,7 +63,7 @@
                                 <option value="Broncos">Broncos</option>
                                 <option value="Colts">Colts</option>
                                 <option value="Titans">Titans</option>
-                                <option value="Jaguars">Jaguars</option>
+                                <option value="Jaguars" selected="selected">Jaguars</option>
                                 <option value="Texans">Texans</option>
                             </optgroup>
                         </select>
@@ -127,7 +128,7 @@
                                 <option value="Patriots">Patriots</option>
                                 <option value="Bills">Bills</option>
                                 <option value="Dolphins">Dolphins</option>
-                                <option value="Jets">Jets</option>
+                                <option value="Jets" selected="selected">Jets</option>
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
                                 <option value="Browns">Browns</option>
@@ -190,7 +191,7 @@
                                 <option value="Giants">Giants</option>
                                 <option value="Eagles">Eagles</option>
                                 <option value="Washington">Washington</option>
-                                <option value="49ers">49ers</option>
+                                <option value="49ers" selected="selected">49ers</option>
                                 <option value="Seahawks">Seahawks</option>
                                 <option value="Rams">Rams</option>
                                 <option value="Cardinals">Cardinals</option>
@@ -271,7 +272,7 @@
                                 <option value="Rams">Rams</option>
                                 <option value="Cardinals">Cardinals</option>
                                 <option value="Saints">Saints</option>
-                                <option value="Falcons">Falcons</option>
+                                <option value="Falcons" selected="selected">Falcons</option>
                                 <option value="Buccaneers">Buccaneers</option>
                                 <option value="Panthers">Panthers</option>
                             </optgroup>
@@ -359,7 +360,7 @@
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
                                 <option value="Browns">Browns</option>
-                                <option value="Bengals">Bengals</option>
+                                <option value="Bengals" selected="selected">Bengals</option>
                                 <option value="Chiefs">Chiefs</option>
                                 <option value="Raiders">Raiders</option>
                                 <option value="Chargers">Chargers</option>
@@ -430,7 +431,7 @@
                             <optgroup label="AFC Teams">
                                 <option value="Patriots">Patriots</option>
                                 <option value="Bills">Bills</option>
-                                <option value="Dolphins">Dolphins</option>
+                                <option value="Dolphins" selected="selected">Dolphins</option>
                                 <option value="Jets">Jets</option>
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
@@ -489,7 +490,7 @@
                                 <option value="Packers">Packers</option>
                                 <option value="Vikings">Vikings</option>
                                 <option value="Bears">Bears</option>
-                                <option value="Lions">Lions</option>
+                                <option value="Lions" selected="selected">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
                                 <option value="Giants">Giants</option>
                                 <option value="Eagles">Eagles</option>
@@ -577,7 +578,7 @@
                                 <option value="Saints">Saints</option>
                                 <option value="Falcons">Falcons</option>
                                 <option value="Buccaneers">Buccaneers</option>
-                                <option value="Panthers">Panthers</option>
+                                <option value="Panthers" selected="selected">Panthers</option>
                             </optgroup>
                             <optgroup label="AFC Teams">
                                 <option value="Patriots">Patriots</option>
@@ -667,7 +668,7 @@
                                 <option value="Chiefs">Chiefs</option>
                                 <option value="Raiders">Raiders</option>
                                 <option value="Chargers">Chargers</option>
-                                <option value="Broncos">Broncos</option>
+                                <option value="Broncos" selected="selected">Broncos</option>
                                 <option value="Colts">Colts</option>
                                 <option value="Titans">Titans</option>
                                 <option value="Jaguars">Jaguars</option>
@@ -718,7 +719,7 @@
                                 <option value="Vikings">Vikings</option>
                                 <option value="Bears">Bears</option>
                                 <option value="Lions">Lions</option>
-                                <option value="Cowboys">Cowboys</option>
+                                <option value="Cowboys" selected="selected">Cowboys</option>
                                 <option value="Giants">Giants</option>
                                 <option value="Eagles">Eagles</option>
                                 <option value="Washington">Washington</option>
@@ -795,7 +796,7 @@
                                 <option value="Bears">Bears</option>
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
-                                <option value="Giants">Giants</option>
+                                <option value="Giants" selected="selected">Giants</option>
                                 <option value="Eagles">Eagles</option>
                                 <option value="Washington">Washington</option>
                                 <option value="49ers">49ers</option>
@@ -872,7 +873,7 @@
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
                                 <option value="Giants">Giants</option>
-                                <option value="Eagles">Eagles</option>
+                                <option value="Eagles" selected="selected">Eagles</option>
                                 <option value="Washington">Washington</option>
                                 <option value="49ers">49ers</option>
                                 <option value="Seahawks">Seahawks</option>
@@ -970,7 +971,7 @@
                                 <option value="Bengals">Bengals</option>
                                 <option value="Chiefs">Chiefs</option>
                                 <option value="Raiders">Raiders</option>
-                                <option value="Chargers">Chargers</option>
+                                <option value="Chargers" selected="selected">Chargers</option>
                                 <option value="Broncos">Broncos</option>
                                 <option value="Colts">Colts</option>
                                 <option value="Titans">Titans</option>
@@ -1019,7 +1020,7 @@
                         <select list="teams" name="team14" id="team14">
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
-                                <option value="Vikings">Vikings</option>
+                                <option value="Vikings" selected="selected">Vikings</option>
                                 <option value="Bears">Bears</option>
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
@@ -1112,7 +1113,7 @@
                                 <option value="Panthers">Panthers</option>
                             </optgroup>
                             <optgroup label="AFC Teams">
-                                <option value="Patriots">Patriots</option>
+                                <option value="Patriots" selected="selected">Patriots</option>
                                 <option value="Bills">Bills</option>
                                 <option value="Dolphins">Dolphins</option>
                                 <option value="Jets">Jets</option>
@@ -1181,7 +1182,7 @@
                                 <option value="49ers">49ers</option>
                                 <option value="Seahawks">Seahawks</option>
                                 <option value="Rams">Rams</option>
-                                <option value="Cardinals">Cardinals</option>
+                                <option value="Cardinals" selected="selected">Cardinals</option>
                                 <option value="Saints">Saints</option>
                                 <option value="Falcons">Falcons</option>
                                 <option value="Buccaneers">Buccaneers</option>
@@ -1273,7 +1274,7 @@
                                 <option value="Browns">Browns</option>
                                 <option value="Bengals">Bengals</option>
                                 <option value="Chiefs">Chiefs</option>
-                                <option value="Raiders">Raiders</option>
+                                <option value="Raiders" selected="selected">Raiders</option>
                                 <option value="Chargers">Chargers</option>
                                 <option value="Broncos">Broncos</option>
                                 <option value="Colts">Colts</option>
@@ -1342,7 +1343,7 @@
                             <optgroup label="AFC Teams">
                                 <option value="Patriots">Patriots</option>
                                 <option value="Bills">Bills</option>
-                                <option value="Dolphins">Dolphins</option>
+                                <option value="Dolphins" selected="selected">Dolphins</option>
                                 <option value="Jets">Jets</option>
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
@@ -1405,7 +1406,7 @@
                                 <option value="Cowboys">Cowboys</option>
                                 <option value="Giants">Giants</option>
                                 <option value="Eagles">Eagles</option>
-                                <option value="Washington">Washington</option>
+                                <option value="Washington" selected="selected">Washington</option>
                                 <option value="49ers">49ers</option>
                                 <option value="Seahawks">Seahawks</option>
                                 <option value="Rams">Rams</option>
@@ -1476,7 +1477,7 @@
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
                                 <option value="Vikings">Vikings</option>
-                                <option value="Bears">Bears</option>
+                                <option value="Bears" selected="selected">Bears</option>
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
                                 <option value="Giants">Giants</option>
@@ -1580,7 +1581,7 @@
                                 <option value="Raiders">Raiders</option>
                                 <option value="Chargers">Chargers</option>
                                 <option value="Broncos">Broncos</option>
-                                <option value="Colts">Colts</option>
+                                <option value="Colts" selected="selected">Colts</option>
                                 <option value="Titans">Titans</option>
                                 <option value="Jaguars">Jaguars</option>
                                 <option value="Texans">Texans</option>
@@ -1657,7 +1658,7 @@
                                 <option value="Chargers">Chargers</option>
                                 <option value="Broncos">Broncos</option>
                                 <option value="Colts">Colts</option>
-                                <option value="Titans">Titans</option>
+                                <option value="Titans" selected="selected">Titans</option>
                                 <option value="Jaguars">Jaguars</option>
                                 <option value="Texans">Texans</option>
                             </optgroup>
@@ -1723,7 +1724,7 @@
                                 <option value="Patriots">Patriots</option>
                                 <option value="Bills">Bills</option>
                                 <option value="Dolphins">Dolphins</option>
-                                <option value="Jets">Jets</option>
+                                <option value="Jets" selected="selected">Jets</option>
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
                                 <option value="Browns">Browns</option>
@@ -1800,7 +1801,7 @@
                                 <option value="Bills">Bills</option>
                                 <option value="Dolphins">Dolphins</option>
                                 <option value="Jets">Jets</option>
-                                <option value="Steelers">Steelers</option>
+                                <option value="Steelers" selected="selected">Steelers</option>
                                 <option value="Ravens">Ravens</option>
                                 <option value="Browns">Browns</option>
                                 <option value="Bengals">Bengals</option>
@@ -1848,7 +1849,616 @@
                         <input type="text" name="uni24" id="uni24" />
                     </td>
                 </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>25.</b></td>
+                    <td>
+                        <select list="teams" name="team25" id="team25">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars" selected="selected">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick25" id="pick25" />
+                    </td>
+                    <td>
+                        <select name="pos25" id="pos25" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni25" id="uni25" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>26.</b></td>
+                    <td>
+                        <select list="teams" name="team26" id="team26">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns" selected="selected">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick26" id="pick26" />
+                    </td>
+                    <td>
+                        <select name="pos26" id="pos26" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni26" id="uni26" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>27.</b></td>
+                    <td>
+                        <select list="teams" name="team27" id="team27">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens" selected="selected">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick27" id="pick27" />
+                    </td>
+                    <td>
+                        <select name="pos27" id="pos27" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni27" id="uni27" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>28.</b></td>
+                    <td>
+                        <select list="teams" name="team28" id="team28">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints" selected="selected">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick28" id="pick28" />
+                    </td>
+                    <td>
+                        <select name="pos28" id="pos28" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni28" id="uni28" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>29.</b></td>
+                    <td>
+                        <select list="teams" name="team29" id="team29">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers" selected="selected">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick29" id="pick29" />
+                    </td>
+                    <td>
+                        <select name="pos29" id="pos29" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni29" id="uni29" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>30.</b></td>
+                    <td>
+                        <select list="teams" name="team30" id="team30">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills" selected="selected">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick30" id="pick30" />
+                    </td>
+                    <td>
+                        <select name="pos30" id="pos30" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni30" id="uni30" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>31.</b></td>
+                    <td>
+                        <select list="teams" name="team31" id="team31">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs" selected="selected">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick31" id="pick31" />
+                    </td>
+                    <td>
+                        <select name="pos31" id="pos31" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni31" id="uni31" />
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>32.</b></td>
+                    <td>
+                        <select list="teams" name="team32" id="team32">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers" selected="selected">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick32" id="pick32" />
+                    </td>
+                    <td>
+                        <select name="pos32" id="pos32" list="positions">
+                            <optgroup label="Offense">
+                                <option value="QB">Quarterback</option>
+                                <option value="RB">Runningback</option>
+                                <option value="FB">Fullback</option>
+                                <option value="WR">Wide Receiver</option>
+                                <option value="TE">Tight End</option>
+                                <option value="C">Center</option>
+                                <option value="G">Guard</option>
+                                <option value="OT">Offensive Tackle</option>
+                            </optgroup>
+                            <optgroup label="Defense">
+                                <option value="LB">Linebacker</option>
+                                <option value="DT">Defensive Tackle</option>
+                                <option value="DE">Defensive End</option>
+                                <option value="CB">Cornerback</option>
+                                <option value="S">Safety</option>
+                            </optgroup>
+                            <optgroup label="Special Teams">
+                                <option value="K">Kicker</option>
+                                <option value="P">Punter</option>
+                                <option value="R">Punt/Kick Returner</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="uni32" id="uni32" />
+                    </td>
+                </tr>
             </table>
+            <button type="submit" class="btn btn-success">All set? Submit Your Draft</button>
         </form>
     </div>
 </body>

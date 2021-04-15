@@ -1,22 +1,24 @@
-html {
+body {
     background-color: grey;
 }
 
 .navBar {
     overflow: hidden;
     background-color: green;
+    text-decoration: none;
 }
 
 .navBar a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 20px;
 }
 .navTransition:hover {
     transition: 0.2s;
     background-color: darkgreen;
+    color: black !important;
 }
 
 .left {
@@ -31,14 +33,15 @@ html {
 }
 
 .container {
-    background-color: white;
-    padding-right: 15px;
-    padding-left: 15px;
+    /*background-color: white;*/
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
     margin-top: 2em;
-    margin-right: auto;
-    margin-left: auto;
-    border: solid green 15px;
-    border-radius: 25px;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+    border: solid green 10px;
+    border-radius: 20px;
+    width: auto;
 }
 
 .container h1 {
@@ -71,6 +74,18 @@ table {
     text-align: center;
 }
 
+td {
+    padding: 0.5em;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    max-width: 10em;
+}
+
 .thumbnail {
     width: 50%;
 }
@@ -88,27 +103,27 @@ table {
 }
 
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-    .draft {
-        width: 503px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-    .draft {
-        width: 665px;
-    }
-}
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-    .draft {
-        width: 804px;
-    }
-}
+/*@media (min-width: 768px) {*/
+/*    .container {*/
+/*        width: 750px;*/
+/*    }*/
+/*    .draft {*/
+/*        width: 503px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 992px) {*/
+/*    .container {*/
+/*        width: 970px;*/
+/*    }*/
+/*    .draft {*/
+/*        width: 665px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+/*    .container {*/
+/*        width: 1170px;*/
+/*    }*/
+/*    .draft {*/
+/*        width: 804px;*/
+/*    }*/
+/*}*/
