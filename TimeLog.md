@@ -11,3 +11,4 @@
 | 4-1-21 | Added GenericDao | 2 | I added a GenericDao so I don't have to have as much duped code |
 | 4-7-21 | Fixed test package | 4 | I had to fix the test package Database file, everything passes just fine now |
 | 4-11-21 | ViewDraft outputs data | 3 | A little more to do so the draft picks are displayed through a loop but ViewDraft does display real data now |
+| 4-15-21 | CreateDraft inserts a new draft | 6 | Users can now create and upload a draft and view it on the website | 
