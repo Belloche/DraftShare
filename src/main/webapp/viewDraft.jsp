@@ -15,7 +15,7 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="draft container">
+    <div class="draft container bg-white">
         <h1>${draft.getDraftName()}</h1>
         <h3 class="user">User: ${draft.getUser()}</h3>
         <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>

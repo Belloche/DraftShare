@@ -188,10 +188,9 @@ public class CreateDraft extends HttpServlet {
 
         int id = dao.insert(newDraft);
 
-        req.setAttribute("draft", dao.getById(id));
-        req.setAttribute("dao", dao);
+        req.setAttribute("id", id);
 
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/viewDraft.jsp");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/draftCreated.jsp");
         dispatcher.forward(req, res);
     }
 }

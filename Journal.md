@@ -68,3 +68,7 @@ Got ViewDraft looking a lot better now but I need to rework it this week so it d
 4-15-21
 
 ViewDraft has been fleshed out almost completely, the only issue I'm having is when you upload a draft I want to redirect them to a viewDraft page with their draft but it won't work for some reason on the ViewDraft end. I can figure something out where it just redirects to the home page and has a message box for success, and I also need to add a couple last details to make sure the positions that are left empty don't go to QB, and I need to make sure that the notNull items are required, but it's almost done.
+
+4-16-21
+
+ViewDraft is finished! I added required fields and added a confirmation page for better navigation to the viewDraft after you submit a draft.

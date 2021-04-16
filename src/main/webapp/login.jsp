@@ -15,7 +15,7 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="container">
+    <div class="container bg-white">
         <h2>Login</h2>
         <form action="j_security_check" method="post">
             <label for="username">Username</label><br />

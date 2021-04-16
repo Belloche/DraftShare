@@ -12,3 +12,4 @@
 | 4-7-21 | Fixed test package | 4 | I had to fix the test package Database file, everything passes just fine now |
 | 4-11-21 | ViewDraft outputs data | 3 | A little more to do so the draft picks are displayed through a loop but ViewDraft does display real data now |
 | 4-15-21 | CreateDraft inserts a new draft | 6 | Users can now create and upload a draft and view it on the website | 
+| 4-16-21 | CreateDraft is finished | 1.5 | CreateDraft now has required fields, the position doesn't autofill to QB, and there is a confirmation page so the viewDraft works better after you submit |
