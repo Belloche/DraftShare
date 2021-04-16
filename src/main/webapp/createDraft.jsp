@@ -16,9 +16,9 @@
 <body class="bg-dark">
     <c:import url="nav.jsp" />
     <div class="container container-xl bg-white">
-        <form action="createDraft" class="form">
+        <form action="createDraft" class="form needs-validation">
             <label for="draftName"><b>Draft Name</b></label>
-            <input type="text" name="draftName" id="draftName" class="form-control" />
+            <input type="text" name="draftName" id="draftName" class="form-control" required />
 
             <label for="description"><b>Description</b></label>
             <textarea name="description" id="description" rows="2" class="form-control"></textarea>
@@ -35,7 +35,7 @@
                     <td>
                         <b>1.</b></td>
                     <td>
-                        <select list="teams" name="team1" id="team1">
+                        <select list="teams" name="team1" id="team1" required>
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
                                 <option value="Vikings">Vikings</option>
@@ -75,10 +75,11 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick1" id="pick1" />
+                        <input type="text" name="pick1" id="pick1" required />
                     </td>
                     <td>
                         <select name="pos1" id="pos1" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -155,6 +156,7 @@
                     </td>
                     <td>
                         <select name="pos2" id="pos2" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -231,6 +233,7 @@
                     </td>
                     <td>
                         <select name="pos3" id="pos3" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -307,6 +310,7 @@
                     </td>
                     <td>
                         <select name="pos4" id="pos4" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -383,6 +387,7 @@
                     </td>
                     <td>
                         <select name="pos5" id="pos5" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -459,6 +464,7 @@
                     </td>
                     <td>
                         <select name="pos6" id="pos6" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -535,6 +541,7 @@
                     </td>
                     <td>
                         <select name="pos7" id="pos7" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -611,6 +618,7 @@
                     </td>
                     <td>
                         <select name="pos8" id="pos8" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -687,6 +695,7 @@
                     </td>
                     <td>
                         <select name="pos9" id="pos9" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -763,6 +772,7 @@
                     </td>
                     <td>
                         <select name="pos10" id="pos10" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -839,6 +849,7 @@
                     </td>
                     <td>
                         <select name="pos11" id="pos11" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -915,6 +926,7 @@
                     </td>
                     <td>
                         <select name="pos12" id="pos12" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -991,6 +1003,7 @@
                     </td>
                     <td>
                         <select name="pos13" id="pos13" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1067,6 +1080,7 @@
                     </td>
                     <td>
                         <select name="pos14" id="pos14" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1143,6 +1157,7 @@
                     </td>
                     <td>
                         <select name="pos15" id="pos15" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1219,6 +1234,7 @@
                     </td>
                     <td>
                         <select name="pos16" id="pos16" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1295,6 +1311,7 @@
                     </td>
                     <td>
                         <select name="pos17" id="pos17" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1371,6 +1388,7 @@
                     </td>
                     <td>
                         <select name="pos18" id="pos18" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1447,6 +1465,7 @@
                     </td>
                     <td>
                         <select name="pos19" id="pos19" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1523,6 +1542,7 @@
                     </td>
                     <td>
                         <select name="pos20" id="pos20" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1599,6 +1619,7 @@
                     </td>
                     <td>
                         <select name="pos21" id="pos21" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1675,6 +1696,7 @@
                     </td>
                     <td>
                         <select name="pos22" id="pos22" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1751,6 +1773,7 @@
                     </td>
                     <td>
                         <select name="pos23" id="pos23" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1827,6 +1850,7 @@
                     </td>
                     <td>
                         <select name="pos24" id="pos24" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1903,6 +1927,7 @@
                     </td>
                     <td>
                         <select name="pos25" id="pos25" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -1979,6 +2004,7 @@
                     </td>
                     <td>
                         <select name="pos26" id="pos26" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -2055,6 +2081,7 @@
                     </td>
                     <td>
                         <select name="pos27" id="pos27" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -2131,6 +2158,7 @@
                     </td>
                     <td>
                         <select name="pos28" id="pos28" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -2207,6 +2235,7 @@
                     </td>
                     <td>
                         <select name="pos29" id="pos29" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -2283,6 +2312,7 @@
                     </td>
                     <td>
                         <select name="pos30" id="pos30" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -2359,6 +2389,7 @@
                     </td>
                     <td>
                         <select name="pos31" id="pos31" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
@@ -2435,6 +2466,7 @@
                     </td>
                     <td>
                         <select name="pos32" id="pos32" list="positions">
+                            <option disabled selected value>Select a Position</option>
                             <optgroup label="Offense">
                                 <option value="QB">Quarterback</option>
                                 <option value="RB">Runningback</option>
