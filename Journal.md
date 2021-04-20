@@ -72,3 +72,7 @@ ViewDraft has been fleshed out almost completely, the only issue I'm having is w
 4-16-21
 
 ViewDraft is finished! I added required fields and added a confirmation page for better navigation to the viewDraft after you submit a draft.
+
+4-20-21
+
+I created the User object and added a getLogo method to the Draft object, now I'm adding logos to viewDraft but I can't get the image path right so I'm sending a message to slack in hopes of figuring it out.

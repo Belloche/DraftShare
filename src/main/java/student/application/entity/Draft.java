@@ -1390,4 +1390,8 @@ public class Draft {
         this.uni32 = uni32;
     }
 
+    public String getLogo(String path) {
+        String logo = "/DraftShare_war/images/" + path + ".png";
+        return logo;
+    }
 }

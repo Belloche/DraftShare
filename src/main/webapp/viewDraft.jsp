@@ -21,6 +21,7 @@
         <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>
         <table class="fullDraft">
             <tr class="fullDraftRow">
+                <th>#</th>
                 <th>Team</th>
                 <th>Player</th>
                 <th>Position</th>
@@ -28,7 +29,8 @@
             </tr>
 
             <tr class="fullDraftRow">
-                <td class="team">1. ${draft.getTeam1()}</td>
+                <td class="team">1.</td>
+                <td><img src="${draft.getLogo(draft.getTeam1())}" alt="${draft.getTeam1()} logo" /></td>
                 <td class="player">${draft.getPick1()}</td>
                 <td>${draft.getPos1()}</td>
                 <td>${draft.getUni1()}</td>
