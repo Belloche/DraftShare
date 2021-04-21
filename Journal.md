@@ -79,4 +79,4 @@ I created the User object and added a getLogo method to the Draft object, now I'
 
 4-21-21
 
-I fixed up the images for the teams so they display with a nice size. I also added them to index too.
+I fixed up the images for the teams so they display with a nice size. I also added them to index too. Next I made CreateDraft look waaaay better with responsive design.

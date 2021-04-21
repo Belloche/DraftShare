@@ -82,6 +82,10 @@ input {
     max-width: 10em;
 }
 
+/*.form td {*/
+/*    width: auto;*/
+/*}*/
+
 .thumbnail {
     width: 50%;
 }
@@ -102,6 +106,43 @@ img {
     height: 100px;
 }
 
+#draftName {
+    max-width: 12em;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 560px !important;
+    }
+    .form input, .form select {
+        max-width: 3.5em;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px !important;
+    }
+    .form input, .form select {
+        max-width: 5em;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px !important;
+    }
+    .form input, .form select {
+        max-width: 7em;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px !important;
+    }
+    .form input, .form select {
+        max-width: 10em;
+    }
+}
+
 
 /*@media (min-width: 768px) {*/
 /*    .container {*/
@@ -112,11 +153,13 @@ img {
 /*    }*/
 /*}*/
 /*@media (min-width: 992px) {*/
-/*    .container {*/
-/*        width: 970px;*/
+/*    .form td {*/
+/*        max-width: 6em;*/
 /*    }*/
-/*    .draft {*/
-/*        width: 665px;*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+/*    .form td {*/
+/*        max-width: 10em;*/
 /*    }*/
 /*}*/
 /*@media (min-width: 1200px) {*/

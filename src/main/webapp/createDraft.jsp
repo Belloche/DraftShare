@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="master.css" />
     <c:import url="bootstrap.jsp" />
 </head>
-<body class="bg-dark">
+<body>
     <c:import url="nav.jsp" />
     <div class="container container-xl bg-white">
         <form action="createDraft" class="form needs-validation">
