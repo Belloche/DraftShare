@@ -1391,7 +1391,8 @@ public class Draft {
     }
 
     public String getLogo(String path) {
-        String logo = "/DraftShare_war/images/" + path + ".png";
+        String logo = "images/" + path + ".png";
+
         return logo;
     }
 }

@@ -15,7 +15,7 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="container">
+    <div class="container bg-white">
         <h2>Success!</h2>
         <p>Your Draft was created!</p>
         <p>If you would like to view your draft click <a href="viewDraft?draft=${id}">Here</a></p>

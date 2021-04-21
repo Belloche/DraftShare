@@ -18,15 +18,18 @@
             <p>Description: ${draft.getDescription()}</p>
             <table class="thumbnail">
                 <tr>
-                    <td class="team">1. ${draft.getTeam1()}</td>
+                    <td>1.</td>
+                    <td><img src="${draft.getLogo(draft.getTeam1())}" alt="${draft.getTeam1()}"></td>
                     <td class="player">${draft.getPick1()}</td>
                 </tr>
                 <tr>
-                    <td class="team">2. ${draft.getTeam2()}</td>
+                    <td>2.</td>
+                    <td><img src="${draft.getLogo(draft.getTeam2())}" alt="${draft.getTeam2()}"></td>
                     <td class="player">${draft.getPick2()}</td>
                 </tr>
                 <tr>
-                    <td class="team">3. ${draft.getTeam3()}</td>
+                    <td>3.</td>
+                    <td><img src="${draft.getLogo(draft.getTeam3())}" alt="${draft.getTeam3()}"></td>
                     <td class="player">${draft.getPick3()}</td>
                 </tr>
             </table>

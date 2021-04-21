@@ -58,10 +58,6 @@ body {
     padding-bottom: 10px;
 }
 
-.team {
-    text-align: left;
-}
-
 .player {
     text-align: center;
 }
@@ -100,6 +96,10 @@ input {
 }
 .downvoteCount {
     color: darkred;
+}
+
+img {
+    height: 100px;
 }
 
 
