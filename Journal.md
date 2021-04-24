@@ -80,3 +80,7 @@ I created the User object and added a getLogo method to the Draft object, now I'
 4-21-21
 
 I fixed up the images for the teams so they display with a nice size. I also added them to index too. Next I made CreateDraft look waaaay better with responsive design.
+
+4-23-21
+
+I added a register page to the login screen and added bootstrap styling to the forms so it looks a lot better. I want to add a little more bootstrap to the backgrounds of the nav and body so the colors look better, I need to add regex to the fields in register, and I need to add to the register servlet.
