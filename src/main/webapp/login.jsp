@@ -18,13 +18,18 @@
     <div class="container bg-white">
         <h2>Login</h2>
         <form action="j_security_check" method="post">
-            <label for="username">Username</label><br />
-            <input type="text" id="username" name="j_username" /><br />
-            <label for="password">Password</label><br />
-            <input type="password" id="password" name="j_password" /><br />
-            <br />
-            <input type="submit" value="Log In" />
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" name="j_username" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="j_password" />
+            </div>
+
+            <button type="submit" class="btn btn-success mb-2">Log In</button>
         </form>
+        <p>Need to Create an Account? <a href="/DraftShare_war/register.jsp" class="link-primary">Register Here</a></p>
     </div>
 </body>
 </html>
