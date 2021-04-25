@@ -84,3 +84,7 @@ I fixed up the images for the teams so they display with a nice size. I also add
 4-23-21
 
 I added a register page to the login screen and added bootstrap styling to the forms so it looks a lot better. I want to add a little more bootstrap to the backgrounds of the nav and body so the colors look better, I need to add regex to the fields in register, and I need to add to the register servlet.
+
+4-25-21
+
+I added to the register page but the Servlet is Erroring

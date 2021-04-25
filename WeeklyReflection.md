@@ -63,3 +63,15 @@ Tasks Completed:
 * Updated ViewDraft to display data from the DB
 
 The ViewDraft page displays real data now, but I need to rework the page to use a loop for each pick so it works better and the file is a lot smaller.
+
+### Week 12-13
+4-25-21
+
+Tasks Completed:
+* Updated CreateDraft to be responsive
+* Added Bootstrap
+* CreateDraft is Complete (nearly)
+* Login looks better
+* Signup created but erroring
+
+I missed an entry last week but still got plenty done. I added bootstrap for responsive styling, createDraft is working nicely, and I'm currently trying to get my register for users working.

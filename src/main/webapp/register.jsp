@@ -17,21 +17,17 @@
     <c:import url="nav.jsp" />
     <div action="registerUser" class="container bg-white">
         <h2>Create an Account</h2>
-        <form action="registerUser" onsubmit="" method="post">
+        <form action="registerUser" method="post">
             <div class="form-group">
-                <label for="username">Username (At Least 8 Numbers or Letters)</label>
-                <input type="text" class="form-control" id="username" name="username" required />
+                <label for="username">Username (Between 8 and 16 Letters or Numbers Long)</label>
+                <input type="text" pattern="[\w.-]{8,16}" class="form-control" id="username" name="username" required />
             </div>
             <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" name="password" required />
-            </div>
-            <div class="form-group">
-                <label for="passwordConfirm">Confirm Password</label>
-                <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm" required />
+                <label for="password">Password (Between 8 and 32 Characters Long</label>
+                <input type="password" pattern=".{8-32}" class="form-control" id="password" name="password" required />
             </div>
 
-            <button type="submit" id="register" class="btn btn-success mb-2" onclick="matchPassword();">Register</button>
+            <button type="submit" id="register" class="btn btn-success mb-2">Register</button>
         </form>
     </div>
 </body>

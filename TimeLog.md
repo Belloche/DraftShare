@@ -13,3 +13,5 @@
 | 4-11-21 | ViewDraft outputs data | 3 | A little more to do so the draft picks are displayed through a loop but ViewDraft does display real data now |
 | 4-15-21 | CreateDraft inserts a new draft | 6 | Users can now create and upload a draft and view it on the website | 
 | 4-16-21 | CreateDraft is finished | 1.5 | CreateDraft now has required fields, the position doesn't autofill to QB, and there is a confirmation page so the viewDraft works better after you submit |
+| 4-2?-21 | CreateDraft is actually done | 3 | CreateDraft is complete with responsive styling |
+| 4-?-21 | Bootstrap added | 2 | Bootstrap is making my life a lot easier |
