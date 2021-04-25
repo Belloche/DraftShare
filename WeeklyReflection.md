@@ -74,4 +74,4 @@ Tasks Completed:
 * Login looks better
 * Signup created but erroring
 
-I missed an entry last week but still got plenty done. I added bootstrap for responsive styling, createDraft is working nicely, and I'm currently trying to get my register for users working.
+I missed an entry last week but still got plenty done. I added bootstrap for responsive styling, createDraft is working nicely, and I added user registry, though you can't get access to the pages yet since the roles need to be added as well.

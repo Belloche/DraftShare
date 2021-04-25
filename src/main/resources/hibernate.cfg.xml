@@ -20,6 +20,7 @@
         <property name="dialect">org.hibernate.dialect.H2Dialect</property>
 
         <mapping class="student.application.entity.Draft" />
+        <mapping class="student.application.entity.User" />
 
 <!--        <mapping class="edu.matc.entity.Author" />-->
 

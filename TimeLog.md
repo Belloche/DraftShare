@@ -15,3 +15,4 @@
 | 4-16-21 | CreateDraft is finished | 1.5 | CreateDraft now has required fields, the position doesn't autofill to QB, and there is a confirmation page so the viewDraft works better after you submit |
 | 4-2?-21 | CreateDraft is actually done | 3 | CreateDraft is complete with responsive styling |
 | 4-?-21 | Bootstrap added | 2 | Bootstrap is making my life a lot easier |
+| 4-25-21 | Register User added | 2 | Users can register and login, next to add them to the roles table |

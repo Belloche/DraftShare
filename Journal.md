@@ -87,4 +87,4 @@ I added a register page to the login screen and added bootstrap styling to the f
 
 4-25-21
 
-I added to the register page but the Servlet is Erroring
+I added to the register page, but users can't gain access to the pages yet since they aren't added to the roles table.
