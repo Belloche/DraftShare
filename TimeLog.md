@@ -16,3 +16,4 @@
 | 4-2?-21 | CreateDraft is actually done | 3 | CreateDraft is complete with responsive styling |
 | 4-?-21 | Bootstrap added | 2 | Bootstrap is making my life a lot easier |
 | 4-25-21 | Register User added | 2 | Users can register and login, next to add them to the roles table |
+| 4-26-21 | CSS Overhaul, Register creates Role | 2 | Register functions properly and users can access all pages now. I also overhauled css so the page doesn't hurt to look at |

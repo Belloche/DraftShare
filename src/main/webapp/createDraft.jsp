@@ -2370,10 +2370,10 @@
                                 <option value="Dolphins">Dolphins</option>
                                 <option value="Jets">Jets</option>
                                 <option value="Steelers">Steelers</option>
-                                <option value="Ravens">Ravens</option>
+                                <option value="Ravens" selected="selected">Ravens</option>
                                 <option value="Browns">Browns</option>
                                 <option value="Bengals">Bengals</option>
-                                <option value="Chiefs" selected="selected">Chiefs</option>
+                                <option value="Chiefs">Chiefs</option>
                                 <option value="Raiders">Raiders</option>
                                 <option value="Chargers">Chargers</option>
                                 <option value="Broncos">Broncos</option>
@@ -2496,7 +2496,7 @@
                     </td>
                 </tr>
             </table>
-            <button type="submit" class="btn btn-success">All set? Submit Your Draft</button>
+            <button type="submit" class="btn btn-primary">All set? Submit Your Draft</button>
         </form>
     </div>
 </body>

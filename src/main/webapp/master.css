@@ -1,12 +1,14 @@
 body {
-    background-color: grey !important;
+    background-color: #A7C7E7 !important;
 }
+/*00B8EB alternate color*/
 
 .navBar {
     overflow: hidden;
-    background-color: green;
+    background-color: #91001E;
     text-decoration: none;
 }
+/*F5002D alternate bright red*/
 
 .navBar a {
     color: white;
@@ -17,8 +19,9 @@ body {
 }
 .navTransition:hover {
     transition: 0.2s;
-    background-color: darkgreen;
-    color: black !important;
+    /*background-color: darkgreen;*/
+    color: white !important;
+    background-color: #5E0014;
 }
 
 .left {
@@ -39,7 +42,7 @@ body {
     margin-top: 2em;
     /*margin-right: auto;*/
     /*margin-left: auto;*/
-    border: solid green 10px;
+    border: solid #0773D6 6px;
     border-radius: 20px;
     width: auto;
 }

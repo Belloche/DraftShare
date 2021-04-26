@@ -3,7 +3,9 @@
 <title>DraftShare - Home</title>
 <c:import url="bootstrap.jsp" />
 <link rel="stylesheet" href="master.css" />
-<body>
+<main>
+
+<body class="bg-grey">
 <c:import url="nav.jsp" />
 
     <div class="container bg-white">
@@ -38,4 +40,5 @@
         </div>
     </c:forEach>
 </body>
+</main>
 </html>

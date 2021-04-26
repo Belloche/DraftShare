@@ -1,5 +1,6 @@
 package student.application.controller;
 
+import student.application.entity.Role;
 import student.application.entity.User;
 import student.application.persistence.ProjectDao;
 
@@ -20,12 +21,21 @@ public class Register extends HttpServlet {
         ProjectDao dao = new ProjectDao(User.class);
         User newUser = new User();
 
+        ProjectDao roleDao = new ProjectDao(Role.class);
+        Role newRole = new Role();
+
         newUser.setUsername(req.getParameter("username"));
         newUser.setPassword(req.getParameter("password"));
 
         int id = dao.insert(newUser);
         req.setAttribute("id",id);
         req.setAttribute("user", newUser);
+
+        newRole.setUserId(id);
+        newRole.setUserName(newUser.getUsername());
+        newRole.setRoleName("user");
+
+        roleDao.insert(newRole);
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userCreated.jsp");
         dispatcher.forward(req, res);

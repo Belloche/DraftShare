@@ -27,7 +27,7 @@
                 <input type="password" class="form-control" id="password" name="j_password" />
             </div>
 
-            <button type="submit" class="btn btn-success mb-2">Log In</button>
+            <button type="submit" class="btn btn-primary mb-2">Log In</button>
         </form>
         <p>Need to Create an Account? <a href="/DraftShare_war/register.jsp" class="link-primary">Register Here</a></p>
     </div>

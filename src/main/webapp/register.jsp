@@ -27,7 +27,7 @@
                 <input type="password" pattern=".{8-32}" class="form-control" id="password" name="password" required />
             </div>
 
-            <button type="submit" id="register" class="btn btn-success mb-2">Register</button>
+            <button type="submit" id="register" class="btn btn-primary mb-2">Register</button>
         </form>
     </div>
 </body>

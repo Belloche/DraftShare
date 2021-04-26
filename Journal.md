@@ -88,3 +88,7 @@ I added a register page to the login screen and added bootstrap styling to the f
 4-25-21
 
 I added to the register page, but users can't gain access to the pages yet since they aren't added to the roles table.
+
+4-26-21
+
+I overhauled css based on the NFL logo, so instead of gross green and grey it uses red and blue.

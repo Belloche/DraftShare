@@ -169,7 +169,8 @@
                 <td>${draft.getUni20()}</td>
             </tr>
             <tr class="fullDraftRow">
-                <td class="team">21. ${draft.getTeam21()}</td>
+                <td class="team">21.</td>
+                <td><img src="${draft.getLogo(draft.getTeam21())}" alt="${draft.getTeam21()} logo" /></td>
                 <td class="player">${draft.getPick21()}</td>
                 <td>${draft.getPos21()}</td>
                 <td>${draft.getUni21()}</td>
@@ -246,7 +247,7 @@
             </tr>
             <tr class="fullDraftRow">
                 <td class="team">32.</td>
-                <td>c</td>
+                <td><img src="${draft.getLogo(draft.getTeam32())}" alt="${draft.getTeam32()} logo" /></td>
                 <td class="player">${draft.getPick32()}</td>
                 <td>${draft.getPos32()}</td>
                 <td>${draft.getUni32()}</td>

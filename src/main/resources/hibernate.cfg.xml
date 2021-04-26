@@ -21,6 +21,7 @@
 
         <mapping class="student.application.entity.Draft" />
         <mapping class="student.application.entity.User" />
+        <mapping class="student.application.entity.Role" />
 
 <!--        <mapping class="edu.matc.entity.Author" />-->
 
