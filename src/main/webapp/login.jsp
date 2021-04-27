@@ -20,11 +20,11 @@
         <form action="j_security_check" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" class="form-control" id="username" name="j_username" />
+                <input type="text" class="form-control" id="username" name="j_username" required />
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" name="j_password" />
+                <input type="password" class="form-control" id="password" name="j_password" required />
             </div>
 
             <button type="submit" class="btn btn-primary mb-2">Log In</button>
