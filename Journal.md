@@ -92,3 +92,7 @@ I added to the register page, but users can't gain access to the pages yet since
 4-26-21
 
 I overhauled css based on the NFL logo, so instead of gross green and grey it uses red and blue.
+
+4-27-21
+
+I added a UserPage but it just gets a 500 Internal Server Error. It might be something with findByPropertyEqual.
