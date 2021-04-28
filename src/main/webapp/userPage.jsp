@@ -17,8 +17,8 @@
     <c:import url="nav.jsp" />
 
     <div class="container bg-white">
-        <p>Username: ${username}</p>
-        <p>Password: ${password()}</p>
+        <p>Username: ${user.getUsername()}</p>
+        <p>Password: ${user.getPassword()}</p>
         <a href="/DraftShare_war/changePassword.jsp" class="link-primary">Change Password</a>
     </div>
 

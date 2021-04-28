@@ -21,22 +21,19 @@ import java.util.List;
 public class UserPage extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        ProjectDao dao = new ProjectDao(UserPage.class);
+        ProjectDao dao = new ProjectDao(User.class);
         ProjectDao draftDao = new ProjectDao(Draft.class);
+        User retrievedUser = null;
 
-        List<User> userList = dao.findByPropertyEqual("user_name", req.getUserPrincipal());
-        String username = "";
-        String password = "";
+        List<User> userList = dao.findByPropertyEqual("username", toString(req.getUserPrincipal()));
+
 
         for (User user : userList) {
-            username = user.getUsername();
-            password = user.getPassword();
+            retrievedUser = user;
         }
 
         req.setAttribute("userDrafts", draftDao.findByPropertyEqual("user", req.getUserPrincipal()));
-        req.setAttribute("user", req.getUserPrincipal());
-        req.setAttribute("username", username);
-        req.setAttribute("password", password);
+        req.setAttribute("user", retrievedUser);
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userPage.jsp");
         dispatcher.forward(req, res);
