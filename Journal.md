@@ -96,3 +96,7 @@ I overhauled css based on the NFL logo, so instead of gross green and grey it us
 4-27-21
 
 I added a UserPage but it just gets a 500 Internal Server Error. It might be something with findByPropertyEqual.
+
+4-28-21
+
+I fixed UserPage so it displays the right information! Now to figure out upvoting and downvoting, change password, and a Search. ALso going to deploy the new WAR to AWS.

@@ -18,3 +18,4 @@
 | 4-25-21 | Register User added | 2 | Users can register and login, next to add them to the roles table |
 | 4-26-21 | CSS Overhaul, Register creates Role | 2 | Register functions properly and users can access all pages now. I also overhauled css so the page doesn't hurt to look at |
 | 4-27-21 | UserPage | 4 | I made a userPage, but it won't load so I'm hoping to debug it when I can |
+| 4-28-21 | UserPage Complete | 1 | I completed most of UserPage's functionality, just need to put a change password Servlet |

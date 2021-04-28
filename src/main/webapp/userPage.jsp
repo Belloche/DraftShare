@@ -22,7 +22,7 @@
         <a href="/DraftShare_war/changePassword.jsp" class="link-primary">Change Password</a>
     </div>
 
-    <c:forEach var="userDrafts" items="${drafts}">
+    <c:forEach var="draft" items="${userDrafts}">
         <div class="container bg-white">
             <h2>${draft.getDraftName()}</h2>
             <p>User: ${draft.getUser()}</p>

@@ -25,14 +25,14 @@ public class UserPage extends HttpServlet {
         ProjectDao draftDao = new ProjectDao(Draft.class);
         User retrievedUser = null;
 
-        List<User> userList = dao.findByPropertyEqual("username", toString(req.getUserPrincipal()));
+        List<User> userList = dao.findByPropertyEqual("username", req.getUserPrincipal().getName());
 
 
         for (User user : userList) {
             retrievedUser = user;
         }
 
-        req.setAttribute("userDrafts", draftDao.findByPropertyEqual("user", req.getUserPrincipal()));
+        req.setAttribute("userDrafts", draftDao.findByPropertyEqual("user", req.getUserPrincipal().getName()));
         req.setAttribute("user", retrievedUser);
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userPage.jsp");
