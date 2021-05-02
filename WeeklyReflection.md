@@ -75,3 +75,15 @@ Tasks Completed:
 * Signup created but erroring
 
 I missed an entry last week but still got plenty done. I added bootstrap for responsive styling, createDraft is working nicely, and I added user registry, though you can't get access to the pages yet since the roles need to be added as well.
+
+### Week 14
+5-2-21
+
+Tasks Completed:
+* Updated CSS so the colors don't hurt your eyes
+* Found an API from Hipo for a list of colleges to add to the college dropdown on createDraft
+* Signup works now
+* UserPage works properly
+* Working on a logout button
+
+I'm starting implementation on Lombok finally, it should shrink file size a considerable amount since some of my Entities are thousands of lines long. I also need to add upvote and downvote, which shouldn't take long, a password change, and a search, which should also be easy enough to implement. Anxiety ensues with the final week of work that I have.
