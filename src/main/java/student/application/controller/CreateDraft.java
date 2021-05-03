@@ -1,5 +1,7 @@
 package student.application.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import student.application.entity.Draft;
 import student.application.persistence.ProjectDao;
 
@@ -9,13 +11,17 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 @WebServlet(
         urlPatterns = "/createDraft"
 )
 
 public class CreateDraft extends HttpServlet {
+    private  final Logger logger = LogManager.getLogger(this.getClass());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         ProjectDao dao = new ProjectDao(Draft.class);

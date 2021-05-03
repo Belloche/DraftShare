@@ -18,3 +18,10 @@ DraftShare will be a social website for NFL mock drafts where users can easily p
 whatever team they want. It will be easy to share to other users, so instead of building a spreadsheet or tweeting out
 nothing facts you'll be able to give your view of how the draft will fall.
 
+### Technologies
+* Project Lombok
+* Hipo University API
+
+I'm using Project Lombok to take care of A LOT of line length in the entities. My draft table has over 100 different,
+so cutting down on that length is crucial. I also found an api of a list of colleges that will make selecting a player's
+  school much easier.

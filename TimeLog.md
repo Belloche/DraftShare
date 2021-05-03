@@ -19,3 +19,4 @@
 | 4-26-21 | CSS Overhaul, Register creates Role | 2 | Register functions properly and users can access all pages now. I also overhauled css so the page doesn't hurt to look at |
 | 4-27-21 | UserPage | 4 | I made a userPage, but it won't load so I'm hoping to debug it when I can |
 | 4-28-21 | UserPage Complete | 1 | I completed most of UserPage's functionality, just need to put a change password Servlet |
+| 5-3-21 | Implementing Hipo | 6 | Hitting a lot of issues with parsing the JSON into readable objects that I can send for the <select> but I'm figuring it out. |

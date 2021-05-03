@@ -100,3 +100,7 @@ I added a UserPage but it just gets a 500 Internal Server Error. It might be som
 4-28-21
 
 I fixed UserPage so it displays the right information! Now to figure out upvoting and downvoting, change password, and a Search. ALso going to deploy the new WAR to AWS.
+
+5-3-21
+
+Implementing the Hipo api is going very slowly. Just can't figure out how to get the results from the url into a readable array. I feel like I'm this close to crushing it but only time will tell.
