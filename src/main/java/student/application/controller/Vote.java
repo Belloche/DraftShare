@@ -205,8 +205,9 @@ public class Vote extends HttpServlet {
 
         dao.saveOrUpdate(newDraft);
 
-        req.setAttribute("success", newDraft);
-        req.setAttribute("vote", voteType);
+        String message = "You successfully " + voteType + "voted " + newDraft.getDraftName();
+
+        req.setAttribute("message", message);
 
         logger.info("Vote Type: " + voteType);
 

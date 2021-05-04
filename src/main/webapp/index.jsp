@@ -7,9 +7,10 @@
 
 <body class="bg-grey">
 <c:import url="nav.jsp" />
-    <c:if test="${not empty vote}">
+    <c:if test="${not empty message}">
         <div class="alert alert-success" align="center" role="alert">
-            <h4 class="alert-heading">You gave ${success.getDraftName()} a vote ${vote}!</h4>
+            <h4 class="alert-heading">Success!</h4>
+            <p>${message}</p>
         </div>
     </c:if>
 

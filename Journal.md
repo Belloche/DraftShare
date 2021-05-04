@@ -107,4 +107,4 @@ Implementing the Hipo api is going very slowly. Just can't figure out how to get
 
 5-4-21
 
-The force is with me! I figured out how to get the JSON to work right from Hipo and it is implemented in the draft creator.
+The force is with me! I figured out how to get the JSON to work right from Hipo and it is implemented in the draft creator. I also implemented upvoting.

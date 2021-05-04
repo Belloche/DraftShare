@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="master.css" />
 </head>
 <body>
+    <c:import url="nav.jsp" />
     <div class="container bg-white">
         <h1>Welcome to DraftShare!</h1>
         <p>DraftShare is a tool for creating and sharing your NFL mock drafts. Create an account to get started!</p>

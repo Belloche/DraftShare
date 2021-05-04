@@ -29,14 +29,14 @@
 ### Weeks 9 - 12
 - [x] Draft creator jsp
 - [ ] password reset
-- [ ] upvoting
+- [x] upvoting
 - [ ] user search
 - [x] deploy to aws
 - [x] Weekly Reflections
 
 ### Weeks 13-16
 - [x] add team logos to editor
-- [ ] user page
+- [x] user page
 - [x] get people to add drafts
 - [ ] Final Presentation
 - [ ] Create video with link on README.md
