@@ -7,17 +7,16 @@
 
 <body class="bg-grey">
 <c:import url="nav.jsp" />
-
-    <div class="container bg-white">
-        <h1>Welcome to DraftShare</h1>
-        <p>DraftShare is a tool for creating and sharing your NFL mock drafts. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fusce id velit ut tortor. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Magnis dis parturient montes nascetur. Arcu ac tortor dignissim convallis. Quam elementum pulvinar etiam non quam lacus. Sed cras ornare arcu dui vivamus arcu felis. Proin fermentum leo vel orci porta non pulvinar. Integer malesuada nunc vel risus. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Ipsum dolor sit amet consectetur adipiscing elit. Curabitur vitae nunc sed velit dignissim sodales ut eu. Ipsum dolor sit amet consectetur adipiscing elit. Id ornare arcu odio ut sem. Molestie at elementum eu facilisis sed odio morbi. Risus nec feugiat in fermentum. Faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Amet massa vitae tortor condimentum lacinia quis vel. Dolor sit amet consectetur adipiscing elit duis. Id nibh tortor id aliquet lectus proin nibh nisl. Vitae congue mauris rhoncus aenean vel elit. Feugiat in ante metus dictum. Ut tristique et egestas quis ipsum. Venenatis a condimentum vitae sapien. Arcu odio ut sem nulla pharetra diam sit. Eleifend mi in nulla posuere sollicitudin aliquam. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus.</p>
-    </div>
+    <c:if test="${not empty vote}">
+        <div class="alert alert-success" align="center" role="alert">
+            <h4 class="alert-heading">You gave ${success.getDraftName()} a vote ${vote}!</h4>
+        </div>
+    </c:if>
 
     <c:forEach var="draft" items="${drafts}">
         <div class="container bg-white">
             <h2>${draft.getDraftName()}</h2>
             <p>User: ${draft.getUser()}</p>
-            <p>Description: ${draft.getDescription()}</p>
             <table class="thumbnail">
                 <tr>
                     <td>1.</td>

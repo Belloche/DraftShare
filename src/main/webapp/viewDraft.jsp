@@ -257,8 +257,8 @@
         </table>
 
         <div class="votes">
-            <button href="/DraftShare_war/upvote?id=${draft.getId()}" class="btn btn-success">Upvote</button>
-            <button href="/DraftShare_war/downvote?id=${draft.getId()}" class="btn btn-danger">Downvote</button>
+            <button onclick=location.href="/DraftShare_war/vote?id=${draft.getId()}&vote=up" class="btn btn-success">Upvote</button>
+            <button onclick=location.href="/DraftShare_war/vote?id=${draft.getId()}&vote=down" class="btn btn-danger">Downvote</button>
         </div>
     </div>
 </body>
