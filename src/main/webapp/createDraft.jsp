@@ -105,7 +105,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni1" id="uni1" />
+                        <select name="uni1" id="uni1" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -182,7 +187,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni2" id="uni2" />
+                        <select name="uni2" id="uni2" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -259,7 +269,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni3" id="uni3" />
+                        <select name="uni3" id="uni3" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -336,7 +351,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni4" id="uni4" />
+                        <select name="uni4" id="uni4" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -413,7 +433,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni5" id="uni5" />
+                        <select name="uni5" id="uni5" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -490,7 +515,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni6" id="uni6" />
+                        <select name="uni6" id="uni6" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -567,7 +597,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni7" id="uni7" />
+                        <select name="uni7" id="uni7" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -644,7 +679,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni8" id="uni8" />
+                        <select name="uni8" id="uni8" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -721,7 +761,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni9" id="uni9" />
+                        <select name="uni9" id="uni9" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -798,7 +843,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni10" id="uni10" />
+                        <select name="uni10" id="uni10" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -875,7 +925,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni11" id="uni11" />
+                        <select name="uni11" id="uni11" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -952,7 +1007,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni12" id="uni12" />
+                        <select name="uni12" id="uni12" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1029,7 +1089,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni13" id="uni13" />
+                        <select name="uni13" id="uni13" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1106,7 +1171,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni14" id="uni14" />
+                        <select name="uni14" id="uni14" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1183,7 +1253,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni15" id="uni15" />
+                        <select name="uni15" id="uni15" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1260,7 +1335,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni16" id="uni16" />
+                        <select name="uni16" id="uni16" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1337,7 +1417,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni17" id="uni17" />
+                        <select name="uni17" id="uni17" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1414,7 +1499,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni18" id="uni18" />
+                        <select name="uni18" id="uni18" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1491,7 +1581,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni19" id="uni19" />
+                        <select name="uni19" id="uni19" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1568,7 +1663,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni20" id="uni20" />
+                        <select name="uni20" id="uni20" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1645,7 +1745,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni21" id="uni21" />
+                        <select name="uni21" id="uni21" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1722,7 +1827,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni22" id="uni22" />
+                        <select name="uni22" id="uni22" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1799,7 +1909,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni23" id="uni23" />
+                        <select name="uni23" id="uni23" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1876,7 +1991,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni24" id="uni24" />
+                        <select name="uni24" id="uni24" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -1953,7 +2073,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni25" id="uni25" />
+                        <select name="uni25" id="uni25" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2030,7 +2155,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni26" id="uni26" />
+                        <select name="uni26" id="uni26" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2107,7 +2237,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni27" id="uni27" />
+                        <select name="uni27" id="uni27" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2184,7 +2319,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni28" id="uni28" />
+                        <select name="uni28" id="uni28" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2261,7 +2401,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni29" id="uni29" />
+                        <select name="uni29" id="uni29" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2338,7 +2483,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni30" id="uni30" />
+                        <select name="uni30" id="uni30" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2415,7 +2565,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni31" id="uni31" />
+                        <select name="uni31" id="uni31" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
                 <tr class="fullDraftRow">
@@ -2492,7 +2647,12 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="uni32" id="uni32" />
+                        <select name="uni32" id="uni32" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
                     </td>
                 </tr>
             </table>

@@ -19,6 +19,8 @@
         <h1>${draft.getDraftName()}</h1>
         <h3 class="user">User: ${draft.getUser()}</h3>
         <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>
+        <h4>Description</h4>
+        <p>${draft.getDescription()}</p>
         <table class="fullDraft">
             <tr class="fullDraftRow">
                 <th>#</th>
@@ -253,6 +255,11 @@
                 <td>${draft.getUni32()}</td>
             </tr>
         </table>
+
+        <div class="votes">
+            <button href="/DraftShare_war/upvote?id=${draft.getId()}" class="btn btn-success">Upvote</button>
+            <button href="/DraftShare_war/downvote?id=${draft.getId()}" class="btn btn-danger">Downvote</button>
+        </div>
     </div>
 </body>
 </html>

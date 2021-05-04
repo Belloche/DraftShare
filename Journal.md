@@ -104,3 +104,7 @@ I fixed UserPage so it displays the right information! Now to figure out upvotin
 5-3-21
 
 Implementing the Hipo api is going very slowly. Just can't figure out how to get the results from the url into a readable array. I feel like I'm this close to crushing it but only time will tell.
+
+5-4-21
+
+The force is with me! I figured out how to get the JSON to work right from Hipo and it is implemented in the draft creator.
