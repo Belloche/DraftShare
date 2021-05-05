@@ -108,3 +108,7 @@ Implementing the Hipo api is going very slowly. Just can't figure out how to get
 5-4-21
 
 The force is with me! I figured out how to get the JSON to work right from Hipo and it is implemented in the draft creator. I also implemented upvoting.
+
+5-5-21
+
+I have implemented Lombok on my entities! I saved over 1000 lines of code on Draft alone. I also shortened the createDraft jsp by using an import on the positions options which saved around 700 lines. Other note: the way I find users by name has been put into its own class as it is used by multiple classes.
