@@ -22,11 +22,11 @@
         <p>Username: <b>${user.getUsername()}</b></p>
         <p>Password: <b>${user.getPassword()}</b></p>
         <a href="/DraftShare_war/changePassword.jsp" class="link-primary">Change Password</a>
-        <form action="/DraftShare_war/logout">
-            <div class="form-group p-2">
-                <button onclick="<% session.invalidate(); %>" class="btn btn-danger">Logout</button>
-            </div>
-        </form>
+<%--        <form action="/DraftShare_war/logout">--%>
+<%--            <div class="form-group p-2">--%>
+<%--                <button onclick="<% session.invalidate(); %>" class="btn btn-danger">Logout</button>--%>
+<%--            </div>--%>
+<%--        </form>--%>
     </div>
 
     <c:forEach var="draft" items="${userDrafts}">

@@ -1,5 +1,7 @@
 package student.application.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import student.application.entity.User;
 import student.application.persistence.ProjectDao;
 
@@ -10,27 +12,36 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet(
         urlPatterns = "/changePassword"
 )
 public class PasswordReset extends HttpServlet {
+    private final Logger logger = LogManager.getLogger(this.getClass());
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         ProjectDao dao = new ProjectDao(User.class);
         User newPasswordUser = new User();
-        User oldUser = null;
         String oldPassword = req.getParameter("oldPassword");
         String newPassword = req.getParameter("newPassword");
-        RequestDispatcher dispatcher = null;
+        RequestDispatcher dispatcher;
+        User oldUser = null;
+        String currentPassword = "";
 
-        List<User> userList = dao.findByPropertyEqual("username", req.getUserPrincipal().getName());
+        List<User> userList = dao.findByPropertyEqual("username", req.getRemoteUser());
+
         for (User user : userList) {
             oldUser = user;
+            currentPassword = oldUser.getPassword();
         }
 
-        if (oldPassword.equals(oldUser.getPassword())) {
+        logger.info("UserName: " + req.getRemoteUser());
+        logger.info("Password: " + currentPassword);
+        logger.info("User: " + oldUser.getUsername());
+
+        if (oldPassword.equals(currentPassword)) {
             newPasswordUser.setUsername(oldUser.getUsername());
             newPasswordUser.setPassword(newPassword);
             newPasswordUser.setId(oldUser.getId());

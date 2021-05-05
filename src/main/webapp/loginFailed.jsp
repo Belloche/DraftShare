@@ -15,7 +15,7 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="container">
+    <div class="container bg-white">
         <h1>Login Failed</h1>
         <h3>Looks like your login was wrong, or maybe you don't have access to that page</h3>
     </div>

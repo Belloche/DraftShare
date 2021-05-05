@@ -117,6 +117,10 @@ img {
     max-width: 12em;
 }
 
+form {
+    display: inline-block;
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 560px !important;

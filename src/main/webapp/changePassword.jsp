@@ -22,15 +22,15 @@
                 <p>Make sure your old password is correct</p>
             </div>
         </c:if>
-        <form action="changePassword" method="post">
-            <div class="form-group">
+        <form action="changePassword">
+            <div class="form-group justify-content-center">
                 <label for="oldPassword">Old Password</label>
                 <input type="password" class="form-control" id="oldPassword" name="oldPassword" required />
 
                 <label for="newPassword">New Password</label>
                 <input type="password" pattern=".{8-32}" class="form-control" id="newPassword" name="newPassword" required />
 
-                <button class="btn btn-success mb-2" type="submit" id="submitChange">Change Password</button>
+                <button class="btn btn-success mb-2 mt-2" type="submit" id="submitChange">Change Password</button>
             </div>
         </form>
     </div>
