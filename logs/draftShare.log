@@ -83,3 +83,8 @@
 [INFO ] 2021-05-04 18:29:50.520 [http-nio-8080-exec-56] PasswordReset - UserName: pwaite
 [INFO ] 2021-05-04 18:29:50.520 [http-nio-8080-exec-56] PasswordReset - Password: newPassword
 [INFO ] 2021-05-04 18:29:50.520 [http-nio-8080-exec-56] PasswordReset - User: pwaite
+[INFO ] 2021-05-05 09:44:40.049 [http-nio-8080-exec-9] Vote - Vote Type: up
+[INFO ] 2021-05-05 09:45:30.684 [http-nio-8080-exec-9] Vote - Vote Type: down
+[INFO ] 2021-05-05 09:47:09.537 [http-nio-8080-exec-3] Vote - Vote Type: up
+[INFO ] 2021-05-05 10:23:28.232 [http-nio-8080-exec-6] Vote - Vote Type: up
+[INFO ] 2021-05-05 10:24:08.604 [http-nio-8080-exec-3] Vote - Vote Type: down

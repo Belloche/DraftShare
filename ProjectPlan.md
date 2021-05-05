@@ -28,7 +28,7 @@
 
 ### Weeks 9 - 12
 - [x] Draft creator jsp
-- [ ] password reset
+- [x] password reset
 - [x] upvoting
 - [ ] user search
 - [x] deploy to aws

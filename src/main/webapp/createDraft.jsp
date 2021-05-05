@@ -79,29 +79,7 @@
                     </td>
                     <td>
                         <select name="pos1" id="pos1" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -161,29 +139,7 @@
                     </td>
                     <td>
                         <select name="pos2" id="pos2" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -243,29 +199,7 @@
                     </td>
                     <td>
                         <select name="pos3" id="pos3" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -325,29 +259,7 @@
                     </td>
                     <td>
                         <select name="pos4" id="pos4" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -407,29 +319,7 @@
                     </td>
                     <td>
                         <select name="pos5" id="pos5" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -489,29 +379,7 @@
                     </td>
                     <td>
                         <select name="pos6" id="pos6" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -571,29 +439,7 @@
                     </td>
                     <td>
                         <select name="pos7" id="pos7" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -653,29 +499,7 @@
                     </td>
                     <td>
                         <select name="pos8" id="pos8" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -735,29 +559,7 @@
                     </td>
                     <td>
                         <select name="pos9" id="pos9" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -774,170 +576,6 @@
                         <b>10.</b></td>
                     <td>
                         <select list="teams" name="team10" id="team10">
-                            <optgroup label="NFC Teams">
-                                <option value="Packers">Packers</option>
-                                <option value="Vikings">Vikings</option>
-                                <option value="Bears">Bears</option>
-                                <option value="Lions">Lions</option>
-                                <option value="Cowboys" selected="selected">Cowboys</option>
-                                <option value="Giants">Giants</option>
-                                <option value="Eagles">Eagles</option>
-                                <option value="Washington">Washington</option>
-                                <option value="49ers">49ers</option>
-                                <option value="Seahawks">Seahawks</option>
-                                <option value="Rams">Rams</option>
-                                <option value="Cardinals">Cardinals</option>
-                                <option value="Saints">Saints</option>
-                                <option value="Falcons">Falcons</option>
-                                <option value="Buccaneers">Buccaneers</option>
-                                <option value="Panthers">Panthers</option>
-                            </optgroup>
-                            <optgroup label="AFC Teams">
-                                <option value="Patriots">Patriots</option>
-                                <option value="Bills">Bills</option>
-                                <option value="Dolphins">Dolphins</option>
-                                <option value="Jets">Jets</option>
-                                <option value="Steelers">Steelers</option>
-                                <option value="Ravens">Ravens</option>
-                                <option value="Browns">Browns</option>
-                                <option value="Bengals">Bengals</option>
-                                <option value="Chiefs">Chiefs</option>
-                                <option value="Raiders">Raiders</option>
-                                <option value="Chargers">Chargers</option>
-                                <option value="Broncos">Broncos</option>
-                                <option value="Colts">Colts</option>
-                                <option value="Titans">Titans</option>
-                                <option value="Jaguars">Jaguars</option>
-                                <option value="Texans">Texans</option>
-                            </optgroup>
-                        </select>
-                    </td>
-                    <td>
-                        <input type="text" name="pick10" id="pick10" />
-                    </td>
-                    <td>
-                        <select name="pos10" id="pos10" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
-                        </select>
-                    </td>
-                    <td>
-                        <select name="uni10" id="uni10" list="universities">
-                            <option disabled selected value>Select a College</option>
-                            <c:forEach var="name" items="${universities}">
-                                <option value="${name}">${name}</option>
-                            </c:forEach>
-                        </select>
-                    </td>
-                </tr>
-                <tr class="fullDraftRow">
-                    <td>
-                        <b>11.</b></td>
-                    <td>
-                        <select list="teams" name="team11" id="team11">
-                            <optgroup label="NFC Teams">
-                                <option value="Packers">Packers</option>
-                                <option value="Vikings">Vikings</option>
-                                <option value="Bears">Bears</option>
-                                <option value="Lions">Lions</option>
-                                <option value="Cowboys">Cowboys</option>
-                                <option value="Giants" selected="selected">Giants</option>
-                                <option value="Eagles">Eagles</option>
-                                <option value="Washington">Washington</option>
-                                <option value="49ers">49ers</option>
-                                <option value="Seahawks">Seahawks</option>
-                                <option value="Rams">Rams</option>
-                                <option value="Cardinals">Cardinals</option>
-                                <option value="Saints">Saints</option>
-                                <option value="Falcons">Falcons</option>
-                                <option value="Buccaneers">Buccaneers</option>
-                                <option value="Panthers">Panthers</option>
-                            </optgroup>
-                            <optgroup label="AFC Teams">
-                                <option value="Patriots">Patriots</option>
-                                <option value="Bills">Bills</option>
-                                <option value="Dolphins">Dolphins</option>
-                                <option value="Jets">Jets</option>
-                                <option value="Steelers">Steelers</option>
-                                <option value="Ravens">Ravens</option>
-                                <option value="Browns">Browns</option>
-                                <option value="Bengals">Bengals</option>
-                                <option value="Chiefs">Chiefs</option>
-                                <option value="Raiders">Raiders</option>
-                                <option value="Chargers">Chargers</option>
-                                <option value="Broncos">Broncos</option>
-                                <option value="Colts">Colts</option>
-                                <option value="Titans">Titans</option>
-                                <option value="Jaguars">Jaguars</option>
-                                <option value="Texans">Texans</option>
-                            </optgroup>
-                        </select>
-                    </td>
-                    <td>
-                        <input type="text" name="pick11" id="pick11" />
-                    </td>
-                    <td>
-                        <select name="pos11" id="pos11" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
-                        </select>
-                    </td>
-                    <td>
-                        <select name="uni11" id="uni11" list="universities">
-                            <option disabled selected value>Select a College</option>
-                            <c:forEach var="name" items="${universities}">
-                                <option value="${name}">${name}</option>
-                            </c:forEach>
-                        </select>
-                    </td>
-                </tr>
-                <tr class="fullDraftRow">
-                    <td>
-                        <b>12.</b></td>
-                    <td>
-                        <select list="teams" name="team12" id="team12">
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
                                 <option value="Vikings">Vikings</option>
@@ -977,33 +615,131 @@
                         </select>
                     </td>
                     <td>
+                        <input type="text" name="pick10" id="pick10" />
+                    </td>
+                    <td>
+                        <select name="pos10" id="pos10" list="positions">
+                            <c:import url="positions.jsp" />
+                        </select>
+                    </td>
+                    <td>
+                        <select name="uni10" id="uni10" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>11.</b></td>
+                    <td>
+                        <select list="teams" name="team11" id="team11">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears" selected="selected">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="pick11" id="pick11" />
+                    </td>
+                    <td>
+                        <select name="pos11" id="pos11" list="positions">
+                            <c:import url="positions.jsp" />
+                        </select>
+                    </td>
+                    <td>
+                        <select name="uni11" id="uni11" list="universities">
+                            <option disabled selected value>Select a College</option>
+                            <c:forEach var="name" items="${universities}">
+                                <option value="${name}">${name}</option>
+                            </c:forEach>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="fullDraftRow">
+                    <td>
+                        <b>12.</b></td>
+                    <td>
+                        <select list="teams" name="team12" id="team12">
+                            <optgroup label="NFC Teams">
+                                <option value="Packers">Packers</option>
+                                <option value="Vikings">Vikings</option>
+                                <option value="Bears">Bears</option>
+                                <option value="Lions">Lions</option>
+                                <option value="Cowboys" selected="selected">Cowboys</option>
+                                <option value="Giants">Giants</option>
+                                <option value="Eagles">Eagles</option>
+                                <option value="Washington">Washington</option>
+                                <option value="49ers">49ers</option>
+                                <option value="Seahawks">Seahawks</option>
+                                <option value="Rams">Rams</option>
+                                <option value="Cardinals">Cardinals</option>
+                                <option value="Saints">Saints</option>
+                                <option value="Falcons">Falcons</option>
+                                <option value="Buccaneers">Buccaneers</option>
+                                <option value="Panthers">Panthers</option>
+                            </optgroup>
+                            <optgroup label="AFC Teams">
+                                <option value="Patriots">Patriots</option>
+                                <option value="Bills">Bills</option>
+                                <option value="Dolphins">Dolphins</option>
+                                <option value="Jets">Jets</option>
+                                <option value="Steelers">Steelers</option>
+                                <option value="Ravens">Ravens</option>
+                                <option value="Browns">Browns</option>
+                                <option value="Bengals">Bengals</option>
+                                <option value="Chiefs">Chiefs</option>
+                                <option value="Raiders">Raiders</option>
+                                <option value="Chargers">Chargers</option>
+                                <option value="Broncos">Broncos</option>
+                                <option value="Colts">Colts</option>
+                                <option value="Titans">Titans</option>
+                                <option value="Jaguars">Jaguars</option>
+                                <option value="Texans">Texans</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                    <td>
                         <input type="text" name="pick12" id="pick12" />
                     </td>
                     <td>
                         <select name="pos12" id="pos12" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1063,29 +799,7 @@
                     </td>
                     <td>
                         <select name="pos13" id="pos13" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1104,7 +818,7 @@
                         <select list="teams" name="team14" id="team14">
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
-                                <option value="Vikings" selected="selected">Vikings</option>
+                                <option value="Vikings">Vikings</option>
                                 <option value="Bears">Bears</option>
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
@@ -1124,7 +838,7 @@
                                 <option value="Patriots">Patriots</option>
                                 <option value="Bills">Bills</option>
                                 <option value="Dolphins">Dolphins</option>
-                                <option value="Jets">Jets</option>
+                                <option value="Jets" selected="selected">Jets</option>
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
                                 <option value="Browns">Browns</option>
@@ -1145,29 +859,7 @@
                     </td>
                     <td>
                         <select name="pos14" id="pos14" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1227,29 +919,7 @@
                     </td>
                     <td>
                         <select name="pos15" id="pos15" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1309,29 +979,7 @@
                     </td>
                     <td>
                         <select name="pos16" id="pos16" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1391,29 +1039,7 @@
                     </td>
                     <td>
                         <select name="pos17" id="pos17" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1473,29 +1099,7 @@
                     </td>
                     <td>
                         <select name="pos18" id="pos18" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1555,29 +1159,7 @@
                     </td>
                     <td>
                         <select name="pos19" id="pos19" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1597,10 +1179,10 @@
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
                                 <option value="Vikings">Vikings</option>
-                                <option value="Bears" selected="selected">Bears</option>
+                                <option value="Bears">Bears</option>
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
-                                <option value="Giants">Giants</option>
+                                <option value="Giants" selected="selected">Giants</option>
                                 <option value="Eagles">Eagles</option>
                                 <option value="Washington">Washington</option>
                                 <option value="49ers">49ers</option>
@@ -1637,29 +1219,7 @@
                     </td>
                     <td>
                         <select name="pos20" id="pos20" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1719,29 +1279,7 @@
                     </td>
                     <td>
                         <select name="pos21" id="pos21" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1801,29 +1339,7 @@
                     </td>
                     <td>
                         <select name="pos22" id="pos22" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1842,7 +1358,7 @@
                         <select list="teams" name="team23" id="team23">
                             <optgroup label="NFC Teams">
                                 <option value="Packers">Packers</option>
-                                <option value="Vikings">Vikings</option>
+                                <option value="Vikings" selected="selected">Vikings</option>
                                 <option value="Bears">Bears</option>
                                 <option value="Lions">Lions</option>
                                 <option value="Cowboys">Cowboys</option>
@@ -1862,7 +1378,7 @@
                                 <option value="Patriots">Patriots</option>
                                 <option value="Bills">Bills</option>
                                 <option value="Dolphins">Dolphins</option>
-                                <option value="Jets" selected="selected">Jets</option>
+                                <option value="Jets">Jets</option>
                                 <option value="Steelers">Steelers</option>
                                 <option value="Ravens">Ravens</option>
                                 <option value="Browns">Browns</option>
@@ -1883,29 +1399,7 @@
                     </td>
                     <td>
                         <select name="pos23" id="pos23" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -1965,29 +1459,7 @@
                     </td>
                     <td>
                         <select name="pos24" id="pos24" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2047,29 +1519,7 @@
                     </td>
                     <td>
                         <select name="pos25" id="pos25" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2129,29 +1579,7 @@
                     </td>
                     <td>
                         <select name="pos26" id="pos26" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2211,29 +1639,7 @@
                     </td>
                     <td>
                         <select name="pos27" id="pos27" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2293,29 +1699,7 @@
                     </td>
                     <td>
                         <select name="pos28" id="pos28" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2375,29 +1759,7 @@
                     </td>
                     <td>
                         <select name="pos29" id="pos29" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2457,29 +1819,7 @@
                     </td>
                     <td>
                         <select name="pos30" id="pos30" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2539,29 +1879,7 @@
                     </td>
                     <td>
                         <select name="pos31" id="pos31" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>
@@ -2621,29 +1939,7 @@
                     </td>
                     <td>
                         <select name="pos32" id="pos32" list="positions">
-                            <option disabled selected value>Select a Position</option>
-                            <optgroup label="Offense">
-                                <option value="QB">Quarterback</option>
-                                <option value="RB">Runningback</option>
-                                <option value="FB">Fullback</option>
-                                <option value="WR">Wide Receiver</option>
-                                <option value="TE">Tight End</option>
-                                <option value="C">Center</option>
-                                <option value="G">Guard</option>
-                                <option value="OT">Offensive Tackle</option>
-                            </optgroup>
-                            <optgroup label="Defense">
-                                <option value="LB">Linebacker</option>
-                                <option value="DT">Defensive Tackle</option>
-                                <option value="DE">Defensive End</option>
-                                <option value="CB">Cornerback</option>
-                                <option value="S">Safety</option>
-                            </optgroup>
-                            <optgroup label="Special Teams">
-                                <option value="K">Kicker</option>
-                                <option value="P">Punter</option>
-                                <option value="R">Punt/Kick Returner</option>
-                            </optgroup>
+                            <c:import url="positions.jsp" />
                         </select>
                     </td>
                     <td>

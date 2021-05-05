@@ -3,6 +3,7 @@ package student.application.controller;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import student.application.entity.Draft;
+import student.application.entity.User;
 import student.application.persistence.ProjectDao;
 
 import javax.servlet.RequestDispatcher;
@@ -26,10 +27,12 @@ public class CreateDraft extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         ProjectDao dao = new ProjectDao(Draft.class);
         Draft newDraft = new Draft();
+        GetUserByName getUser = new GetUserByName();
+        User user = getUser.getUserByName(req.getUserPrincipal().getName());
 
         newDraft.setDescription(req.getParameter("description"));
-
-        newDraft.setUser(req.getUserPrincipal().getName());
+        newDraft.setUserId(user.getId());
+        newDraft.setUser(user.getUsername());
         newDraft.setDraftName(req.getParameter("draftName"));
 
         newDraft.setTeam1(req.getParameter("team1"));

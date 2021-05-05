@@ -24,15 +24,10 @@ public class UserPage extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         ProjectDao dao = new ProjectDao(User.class);
         ProjectDao draftDao = new ProjectDao(Draft.class);
-        User retrievedUser = null;
-        List<User> userList = dao.findByPropertyEqual("username", req.getUserPrincipal().getName());
+        GetUserByName getUser = new GetUserByName();
+        User retrievedUser = getUser.getUserByName(req.getUserPrincipal().getName());
 
-
-        for (User user : userList) {
-            retrievedUser = user;
-        }
-
-        req.setAttribute("userDrafts", draftDao.findByPropertyEqual("user", req.getUserPrincipal().getName()));
+        req.setAttribute("userDrafts", draftDao.findByPropertyEqual("user", retrievedUser.getUsername()));
         req.setAttribute("user", retrievedUser);
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userPage.jsp");

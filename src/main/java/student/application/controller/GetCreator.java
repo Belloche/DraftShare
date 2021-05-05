@@ -16,13 +16,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @WebServlet(
         urlPatterns = "/creator"
 )
-public class Creator extends HttpServlet {
+public class GetCreator extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     @Override
@@ -31,7 +30,7 @@ public class Creator extends HttpServlet {
         BufferedReader reader;
         String line;
         StringBuffer stringBuffer = new StringBuffer();
-        List<String> universities = new ArrayList<String>();
+        SortedSet<String> universities = new TreeSet<String>();
         try {
             URL url = new URL("http://universities.hipolabs.com/search?country=United%20States");
             connection = (HttpURLConnection) url.openConnection();
