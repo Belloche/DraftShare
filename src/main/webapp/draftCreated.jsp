@@ -21,5 +21,6 @@
         <p>If you would like to view your draft click <a href="viewDraft?draft=${id}">Here</a></p>
         <p>To go back to the homepage click <a href="/home">Here</a></p>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

@@ -23,5 +23,6 @@
         <p>To see or change your credentials click <a href="#">Here</a></p>
         <p>To go back to the homepage click <a href="/home">Here</a></p>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

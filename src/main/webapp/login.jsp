@@ -31,5 +31,6 @@
         </form>
         <p>Need to Create an Account? <a href="/DraftShare_war/register.jsp" class="link-primary">Register Here</a></p>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

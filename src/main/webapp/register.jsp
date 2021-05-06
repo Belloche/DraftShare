@@ -30,5 +30,6 @@
             <button type="submit" id="register" class="btn btn-primary mb-2">Register</button>
         </form>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

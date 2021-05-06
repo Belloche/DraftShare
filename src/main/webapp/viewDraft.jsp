@@ -15,12 +15,20 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="draft container bg-white">
-        <h1>${draft.getDraftName()}</h1>
-        <h3 class="user">User: ${draft.getUser()}</h3>
-        <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>
-        <h4>Description</h4>
-        <p>${draft.getDescription()}</p>
+
+    <div class="draft container bg-white draftTable">
+        <div align="center">
+            <h1>${draft.getDraftName()}</h1>
+            <h3 class="user">User: ${draft.getUser()}</h3>
+            <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>
+            <h4>Description</h4>
+            <p>${draft.getDescription()}</p>
+            <div class="row justify-content-center">
+                <a href="/DraftShare_war/vote?id=${draft.getId()}&vote=up"><button class="btn btn-success mr-1">Upvote</button></a>
+                <a href="/DraftShare_war/vote?id=${draft.getId()}&vote=down"><button class="btn btn-danger ml-1">Downvote</button></a>
+            </div>
+        </div>
+
         <table class="fullDraft">
             <tr class="fullDraftRow">
                 <th>#</th>
@@ -255,11 +263,7 @@
                 <td>${draft.getUni32()}</td>
             </tr>
         </table>
-
-        <div class="votes">
-            <button onclick=location.href="/DraftShare_war/vote?id=${draft.getId()}&vote=up" class="btn btn-success">Upvote</button>
-            <button onclick=location.href="/DraftShare_war/vote?id=${draft.getId()}&vote=down" class="btn btn-danger">Downvote</button>
-        </div>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

@@ -1,5 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: #A7C7E7 !important;
+    margin: 0 0 100px !important;
 }
 /*00B8EB alternate color*/
 
@@ -81,6 +87,10 @@ form {
     display: inline-block;
 }
 
+.search {
+    display: inline;
+}
+
 input {
     max-width: 10em;
 }
@@ -117,8 +127,43 @@ img {
     max-width: 12em;
 }
 
+footer {
+    position: absolute;
+    background-color: #91001E;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+}
+
+.searchThumbnail {
+    max-width: 38em !important;
+}
+
+.searchForm input {
+    max-width: 80% !important;
+}
+
+.searchDiv {
+    max-width: 24em !important;
+}
+
+.userDiv {
+    text-align: center;
+    max-width: 50em !important;
+}
+
+.emptyUserDrafts {
+    max-width: 40em !important;
+}
+
+.formDiv {
+    max-width: 32em !important;
+}
+
 @media (min-width: 576px) {
-    .container {
+    .draftTable {
         max-width: 560px !important;
     }
     .form input, .form select {
@@ -126,7 +171,7 @@ img {
     }
 }
 @media (min-width: 768px) {
-    .container {
+    .draftTable {
         max-width: 720px !important;
     }
     .form input, .form select {
@@ -134,7 +179,7 @@ img {
     }
 }
 @media (min-width: 992px) {
-    .container {
+    .draftTable {
         max-width: 960px !important;
     }
     .form input, .form select {
@@ -142,7 +187,7 @@ img {
     }
 }
 @media (min-width: 1200px) {
-    .container {
+    .draftTable {
         max-width: 1140px !important;
     }
     .form input, .form select {

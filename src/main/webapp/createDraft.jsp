@@ -15,7 +15,7 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="container container-xl bg-white">
+    <div class="container container-xl bg-white draftTable">
         <form action="createDraft" class="form needs-validation">
             <label for="draftName"><b>Draft Name</b></label>
             <input type="text" name="draftName" id="draftName" class="form-control" required />
@@ -1955,5 +1955,6 @@
             <button type="submit" class="btn btn-primary">All set? Submit Your Draft</button>
         </form>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

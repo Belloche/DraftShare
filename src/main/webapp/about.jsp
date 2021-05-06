@@ -19,5 +19,6 @@
         <h1>Welcome to DraftShare!</h1>
         <p>DraftShare is a tool for creating and sharing your NFL mock drafts. Create an account to get started!</p>
     </div>
+    <c:import url="footer.jsp" />
 </body>
 </html>

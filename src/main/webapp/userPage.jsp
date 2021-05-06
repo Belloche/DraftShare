@@ -16,18 +16,29 @@
 <body>
     <c:import url="nav.jsp" />
 
-    <div class="container bg-white">
+    <c:if test="${not empty deleted}">
+        <div class="alert alert-danger">
+            <h2 class="alert-heading">Success!</h2>
+            <p>You successfully deleted your draft</p>
+        </div>
+    </c:if>
+
+    <div class="container bg-white userDiv">
         <h1>Welcome Back, ${user.getUsername()}!</h1>
         <h3>Your Credentials</h3>
         <p>Username: <b>${user.getUsername()}</b></p>
         <p>Password: <b>${user.getPassword()}</b></p>
         <a href="/DraftShare_war/changePassword.jsp" class="link-primary">Change Password</a>
-<%--        <form action="/DraftShare_war/logout">--%>
-<%--            <div class="form-group p-2">--%>
-<%--                <button onclick="<% session.invalidate(); %>" class="btn btn-danger">Logout</button>--%>
-<%--            </div>--%>
-<%--        </form>--%>
+        <br />
+        <a href="/DraftShare_war/logOut.jsp"><button class="btn btn-danger mb-2">Log Out</button></a>
     </div>
+
+    <c:if test="${!not empty userDrafts}">
+        <div class="container bg-white emptyUserDrafts">
+            <h3>No Drafts Yet</h3>
+            <p>Create some drafts and they'll show up here</p>
+        </div>
+    </c:if>
 
     <c:forEach var="draft" items="${userDrafts}">
         <div class="container bg-white">
@@ -53,7 +64,10 @@
             </table>
             <p>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></p>
             <a href="viewDraft?draft=${draft.getId()}">View Full Draft</a>
+            <br />
+            <a href="confirm?id=${draft.getId()}"><button class="btn btn-danger m-2">Delete Draft</button></a>
         </div>
     </c:forEach>
+    <c:import url="footer.jsp" />
 </body>
 </html>

@@ -39,6 +39,8 @@
             <a href="viewDraft?draft=${draft.getId()}">View Full Draft</a>
         </div>
     </c:forEach>
+<c:import url="footer.jsp" />
 </body>
+
 </main>
 </html>

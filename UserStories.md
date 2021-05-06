@@ -2,6 +2,7 @@
 
 ### Home Page
 When users go to the site they will be greeted with a carousel of the first 5 picks from mock drafts from other users
+* EDIT 5/6/21: I decided against using a carousel because I learned in my UI/UX class that statistically nobody uses carousels
 
 ### Sign Up
 I need to be able to sign in so when I make a new draft people know it's mine
