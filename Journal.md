@@ -112,3 +112,7 @@ The force is with me! I figured out how to get the JSON to work right from Hipo 
 5-5-21
 
 I have implemented Lombok on my entities! I saved over 1000 lines of code on Draft alone. I also shortened the createDraft jsp by using an import on the positions options which saved around 700 lines. Other note: the way I find users by name has been put into its own class as it is used by multiple classes.
+
+5-6-21
+
+I added a lot of features and new stylings and a footer. I need to get rid of the register confirmation and put an alertbox on the userpage, and there are some uncentered stylings left over. I also need to update tests, javadoc, then reformat urls to deploy to AWS. Oof.

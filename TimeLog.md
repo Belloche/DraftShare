@@ -22,3 +22,4 @@
 | 5-3-21 | Implementing Hipo | 6 | Hitting a lot of issues with parsing the JSON into readable objects that I can send for the <select> but I'm figuring it out. |
 | 5-4-21 | Hipo Working, Voting Working | 8 | I figured out how to implement Hipo and voting. I also added the reset password functionality |
 | 5-5-21 | Implemented Lombok, shortened code | 3 | I shortened over 2k lines of code total in my project by using Lombok on my entities and using c:imports on the position selection |
+| 5-6-21 | Added footer, search, delete, logout, and better stylings | 6 | I added a footer, implemented the Delete in User Stories, a log out and a draft search. I also updated a lot of stylings |

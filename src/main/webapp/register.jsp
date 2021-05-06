@@ -15,7 +15,7 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div action="registerUser" class="container bg-white">
+    <div action="registerUser" class="container bg-white formDiv" align="center">
         <h2>Create an Account</h2>
         <form action="registerUser" method="post">
             <div class="form-group">

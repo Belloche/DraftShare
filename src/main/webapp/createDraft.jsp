@@ -15,7 +15,8 @@
 </head>
 <body>
     <c:import url="nav.jsp" />
-    <div class="container container-xl bg-white draftTable">
+    <div class="container bg-white draftTable">
+        <h1>Create a Draft</h1>
         <form action="createDraft" class="form needs-validation">
             <label for="draftName"><b>Draft Name</b></label>
             <input type="text" name="draftName" id="draftName" class="form-control" required />
