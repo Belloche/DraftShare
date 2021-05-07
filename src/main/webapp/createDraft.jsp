@@ -1,9 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
-  User: student
+  User: Zane Miller
   Date: 4/12/21
   Time: 1:02 PM
-  To change this template use File | Settings | File Templates.
+  Draft creator page
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,12 +17,13 @@
     <c:import url="nav.jsp" />
     <div class="container bg-white draftTable">
         <h1>Create a Draft</h1>
+        <p><b>Names with letters only</b></p>
         <form action="createDraft" class="form needs-validation">
             <label for="draftName"><b>Draft Name</b></label>
-            <input type="text" name="draftName" id="draftName" class="form-control" required />
+            <input type="text" pattern="[A-Za-z\s'.-]{1,50}" name="draftName" id="draftName" class="form-control" required />
 
             <label for="description"><b>Description</b></label>
-            <textarea name="description" id="description" rows="2" class="form-control"></textarea>
+            <textarea name="description" placeholder="512 characters or less" maxlength="512" id="description" rows="2" class="form-control"></textarea>
 
             <table class="fullDraft center table table-responsive">
                 <tr class="fullDraftRow">
@@ -76,7 +77,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick1" id="pick1" required />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick1" id="pick1" required />
                     </td>
                     <td>
                         <select name="pos1" id="pos1" list="positions">
@@ -136,7 +137,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick2" id="pick2" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick2" id="pick2" />
                     </td>
                     <td>
                         <select name="pos2" id="pos2" list="positions">
@@ -196,7 +197,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick3" id="pick3" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick3" id="pick3" />
                     </td>
                     <td>
                         <select name="pos3" id="pos3" list="positions">
@@ -256,7 +257,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick4" id="pick4" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick4" id="pick4" />
                     </td>
                     <td>
                         <select name="pos4" id="pos4" list="positions">
@@ -316,7 +317,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick5" id="pick5" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick5" id="pick5" />
                     </td>
                     <td>
                         <select name="pos5" id="pos5" list="positions">
@@ -376,7 +377,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick6" id="pick6" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick6" id="pick6" />
                     </td>
                     <td>
                         <select name="pos6" id="pos6" list="positions">
@@ -436,7 +437,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick7" id="pick7" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick7" id="pick7" />
                     </td>
                     <td>
                         <select name="pos7" id="pos7" list="positions">
@@ -496,7 +497,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick8" id="pick8" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick8" id="pick8" />
                     </td>
                     <td>
                         <select name="pos8" id="pos8" list="positions">
@@ -556,7 +557,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick9" id="pick9" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick9" id="pick9" />
                     </td>
                     <td>
                         <select name="pos9" id="pos9" list="positions">
@@ -616,7 +617,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick10" id="pick10" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick10" id="pick10" />
                     </td>
                     <td>
                         <select name="pos10" id="pos10" list="positions">
@@ -676,7 +677,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick11" id="pick11" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick11" id="pick11" />
                     </td>
                     <td>
                         <select name="pos11" id="pos11" list="positions">
@@ -736,7 +737,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick12" id="pick12" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick12" id="pick12" />
                     </td>
                     <td>
                         <select name="pos12" id="pos12" list="positions">
@@ -796,7 +797,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick13" id="pick13" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick13" id="pick13" />
                     </td>
                     <td>
                         <select name="pos13" id="pos13" list="positions">
@@ -856,7 +857,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick14" id="pick14" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick14" id="pick14" />
                     </td>
                     <td>
                         <select name="pos14" id="pos14" list="positions">
@@ -916,7 +917,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick15" id="pick15" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick15" id="pick15" />
                     </td>
                     <td>
                         <select name="pos15" id="pos15" list="positions">
@@ -976,7 +977,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick16" id="pick16" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick16" id="pick16" />
                     </td>
                     <td>
                         <select name="pos16" id="pos16" list="positions">
@@ -1036,7 +1037,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick17" id="pick17" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick17" id="pick17" />
                     </td>
                     <td>
                         <select name="pos17" id="pos17" list="positions">
@@ -1096,7 +1097,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick18" id="pick18" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick18" id="pick18" />
                     </td>
                     <td>
                         <select name="pos18" id="pos18" list="positions">
@@ -1156,7 +1157,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick19" id="pick19" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick19" id="pick19" />
                     </td>
                     <td>
                         <select name="pos19" id="pos19" list="positions">
@@ -1216,7 +1217,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick20" id="pick20" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick20" id="pick20" />
                     </td>
                     <td>
                         <select name="pos20" id="pos20" list="positions">
@@ -1276,7 +1277,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick21" id="pick21" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick21" id="pick21" />
                     </td>
                     <td>
                         <select name="pos21" id="pos21" list="positions">
@@ -1336,7 +1337,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick22" id="pick22" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick22" id="pick22" />
                     </td>
                     <td>
                         <select name="pos22" id="pos22" list="positions">
@@ -1396,7 +1397,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick23" id="pick23" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick23" id="pick23" />
                     </td>
                     <td>
                         <select name="pos23" id="pos23" list="positions">
@@ -1456,7 +1457,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick24" id="pick24" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick24" id="pick24" />
                     </td>
                     <td>
                         <select name="pos24" id="pos24" list="positions">
@@ -1516,7 +1517,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick25" id="pick25" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick25" id="pick25" />
                     </td>
                     <td>
                         <select name="pos25" id="pos25" list="positions">
@@ -1576,7 +1577,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick26" id="pick26" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick26" id="pick26" />
                     </td>
                     <td>
                         <select name="pos26" id="pos26" list="positions">
@@ -1636,7 +1637,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick27" id="pick27" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick27" id="pick27" />
                     </td>
                     <td>
                         <select name="pos27" id="pos27" list="positions">
@@ -1696,7 +1697,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick28" id="pick28" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick28" id="pick28" />
                     </td>
                     <td>
                         <select name="pos28" id="pos28" list="positions">
@@ -1756,7 +1757,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick29" id="pick29" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick29" id="pick29" />
                     </td>
                     <td>
                         <select name="pos29" id="pos29" list="positions">
@@ -1816,7 +1817,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick30" id="pick30" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick30" id="pick30" />
                     </td>
                     <td>
                         <select name="pos30" id="pos30" list="positions">
@@ -1876,7 +1877,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick31" id="pick31" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick31" id="pick31" />
                     </td>
                     <td>
                         <select name="pos31" id="pos31" list="positions">
@@ -1936,7 +1937,7 @@
                         </select>
                     </td>
                     <td>
-                        <input type="text" name="pick32" id="pick32" />
+                        <input type="text" pattern="[A-Za-z\s'.-]{1,50}" placeholder="1-50 Letters" name="pick32" id="pick32" />
                     </td>
                     <td>
                         <select name="pos32" id="pos32" list="positions">

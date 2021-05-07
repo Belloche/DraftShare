@@ -1,9 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
-  User: student
+  User: Zane Miller
   Date: 3/23/21
   Time: 9:59 AM
-  To change this template use File | Settings | File Templates.
+  Login Form
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -20,11 +20,11 @@
         <form action="j_security_check" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" class="form-control" id="username" name="j_username" required />
+                <input type="text" class="form-control" id="username" name="j_username" aria-required="true" required />
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" name="j_password" required />
+                <input type="password" class="form-control" id="password" name="j_password" aria-required="true" required />
             </div>
 
             <button type="submit" class="btn btn-primary mb-2">Log In</button>

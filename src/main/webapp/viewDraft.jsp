@@ -1,9 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
-  User: student
+  User: Zane Miller
   Date: 2/26/21
   Time: 5:19 PM
-  To change this template use File | Settings | File Templates.
+  Page with full draft readout
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <table class="fullDraft">
+        <table class="fullDraft mt-3">
             <tr class="fullDraftRow">
                 <th>#</th>
                 <th>Team</th>
@@ -263,6 +263,8 @@
                 <td>${draft.getUni32()}</td>
             </tr>
         </table>
+        <a href="#"><button class="btn btn-primary mt-2">Back to Top</button></a>
+        <a href="/DraftSHare_war/home"><button class="btn btn-primary mt-2">Back to Home</button></a>
     </div>
     <c:import url="footer.jsp" />
 </body>

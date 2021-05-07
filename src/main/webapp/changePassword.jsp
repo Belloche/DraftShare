@@ -1,9 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
-  User: student
+  User: Zane Miller
   Date: 5/4/21
   Time: 2:31 PM
-  To change this template use File | Settings | File Templates.
+  Change Password page
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -27,7 +27,7 @@
                 <label for="oldPassword">Old Password</label>
                 <input type="password" class="form-control" id="oldPassword" name="oldPassword" required />
 
-                <label for="newPassword">New Password</label>
+                <label for="newPassword">New Password (between 8 and 32 characters)</label>
                 <input type="password" pattern=".{8-32}" class="form-control" id="newPassword" name="newPassword" required />
 
                 <button class="btn btn-success mb-2 mt-2" type="submit" id="submitChange">Change Password</button>

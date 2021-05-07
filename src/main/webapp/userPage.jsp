@@ -1,9 +1,9 @@
 <%--
   Created by IntelliJ IDEA.
-  User: student
+  User: Zane Miller
   Date: 4/27/21
   Time: 3:00 PM
-  To change this template use File | Settings | File Templates.
+  User details page
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -16,25 +16,24 @@
 <body>
     <c:import url="nav.jsp" />
 
-    <c:if test="${not empty deleted}">
-        <div class="alert alert-danger">
-            <h2 class="alert-heading">Success!</h2>
-            <p>You successfully deleted your draft</p>
-        </div>
-    </c:if>
-
-    <div class="container bg-white userDiv">
+    <div class="container bg-white userDiv" align="center">
+        <c:if test="${not empty deleted}">
+            <div class="alert alert-danger">
+                <h2 class="alert-heading">Success!</h2>
+                <p>You successfully deleted your draft</p>
+            </div>
+        </c:if>
         <h1>Welcome Back, ${user.getUsername()}!</h1>
         <h3>Your Credentials</h3>
         <p>Username: <b>${user.getUsername()}</b></p>
         <p>Password: <b>${user.getPassword()}</b></p>
         <a href="/DraftShare_war/changePassword.jsp" class="link-primary">Change Password</a>
         <br />
-        <a href="/DraftShare_war/logOut.jsp"><button class="btn btn-danger mb-2">Log Out</button></a>
+        <a href="/DraftShare_war/logOut.jsp"><button class="btn btn-danger m-3">Log Out</button></a>
     </div>
 
     <c:if test="${!not empty userDrafts}">
-        <div class="container bg-white emptyUserDrafts">
+        <div class="container bg-white emptyUserDrafts" align="center">
             <h3>No Drafts Yet</h3>
             <p>Create some drafts and they'll show up here</p>
         </div>
