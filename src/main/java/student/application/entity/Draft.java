@@ -185,10 +185,4 @@ public class Draft {
     private String pick32;
     private String pos32;
     private String uni32;
-
-    public String getLogo(String path) {
-        String logo = "images/" + path + ".png";
-
-        return logo;
-    }
 }

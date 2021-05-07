@@ -48,17 +48,17 @@
             <table class="thumbnail">
                 <tr>
                     <td>1.</td>
-                    <td><img src="${draft.getLogo(draft.getTeam1())}" alt="${draft.getTeam1()}"></td>
+                    <td><img src="images/${draft.getTeam1()}.png" alt="${draft.getTeam1()}"></td>
                     <td class="player">${draft.getPick1()}</td>
                 </tr>
                 <tr>
                     <td>2.</td>
-                    <td><img src="${draft.getLogo(draft.getTeam2())}" alt="${draft.getTeam2()}"></td>
+                    <td><img src="images/${draft.getTeam2()}.png" alt="${draft.getTeam2()}"></td>
                     <td class="player">${draft.getPick2()}</td>
                 </tr>
                 <tr>
                     <td>3.</td>
-                    <td><img src="${draft.getLogo(draft.getTeam3())}" alt="${draft.getTeam3()}"></td>
+                    <td><img src="images/${draft.getTeam3()}.png" alt="${draft.getTeam3()}"></td>
                     <td class="player">${draft.getPick3()}</td>
                 </tr>
             </table>

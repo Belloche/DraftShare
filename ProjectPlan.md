@@ -30,7 +30,7 @@
 - [x] Draft creator jsp
 - [x] password reset
 - [x] upvoting
-- [ ] user search
+- [x] user search
 - [x] deploy to aws
 - [x] Weekly Reflections
 

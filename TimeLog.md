@@ -23,3 +23,4 @@
 | 5-4-21 | Hipo Working, Voting Working | 8 | I figured out how to implement Hipo and voting. I also added the reset password functionality |
 | 5-5-21 | Implemented Lombok, shortened code | 3 | I shortened over 2k lines of code total in my project by using Lombok on my entities and using c:imports on the position selection |
 | 5-6-21 | Added footer, search, delete, logout, and better stylings | 6 | I added a footer, implemented the Delete in User Stories, a log out and a draft search. I also updated a lot of stylings |
+| 5-7-21 | Removed getLogo() | 1 | I removed getLogo from the project since it wasn't necessary |
