@@ -7,20 +7,21 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
 <head>
     <title>DraftShare - Create a Draft</title>
     <link rel="stylesheet" href="master.css" />
     <c:import url="bootstrap.jsp" />
 </head>
-<body>
+<main>
+    <body>
     <c:import url="nav.jsp" />
     <div class="container bg-white draftTable">
         <h1>Create a Draft</h1>
         <p><b>Names with letters only</b></p>
         <form action="createDraft" class="form needs-validation">
             <label for="draftName"><b>Draft Name</b></label>
-            <input type="text" pattern="[A-Za-z\s'.-]{1,50}" name="draftName" id="draftName" class="form-control" required />
+            <input type="text" placeholder="1-50 Letters or Numbers" pattern="[A-Za-z0-9\s'.-]{1,50}" name="draftName" id="draftName" class="form-control" required />
 
             <label for="description"><b>Description</b></label>
             <textarea name="description" placeholder="512 characters or less" maxlength="512" id="description" rows="2" class="form-control"></textarea>
@@ -1958,5 +1959,6 @@
         </form>
     </div>
     <c:import url="footer.jsp" />
-</body>
+    </body>
+</main>
 </html>

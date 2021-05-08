@@ -7,15 +7,16 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
 <head>
     <title>DraftShare - Change Password</title>
     <link rel="stylesheet" href="master.css" />
     <c:import url="bootstrap.jsp" />
 </head>
-<body>
+<main>
+    <body>
     <c:import url="nav.jsp" />
-    <div class="container bg-white">
+    <div class="container bg-white formDiv">
         <c:if test="${incorrect.equals('true')}">
             <div class="alert alert-danger">
                 <h4 class="alert-heading">Incorrect Password</h4>
@@ -35,5 +36,6 @@
         </form>
     </div>
     <c:import url="footer.jsp" />
-</body>
+    </body>
+</main>
 </html>

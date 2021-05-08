@@ -7,13 +7,14 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
 <head>
     <title>DraftShare - Login</title>
     <link rel="stylesheet" href="master.css" />
     <c:import url="bootstrap.jsp" />
 </head>
-<body>
+<main>
+    <body>
     <c:import url="nav.jsp" />
     <div align="center" class="container bg-white formDiv">
         <h2>Login</h2>
@@ -29,8 +30,9 @@
 
             <button type="submit" class="btn btn-primary mb-2">Log In</button>
         </form>
-        <p>Need to Create an Account? <a href="/DraftShare_war/register.jsp" class="link-primary">Register Here</a></p>
+        <p>Need to Create an Account? <a href="/DraftShare/register.jsp" class="link-primary">Register Here</a></p>
     </div>
     <c:import url="footer.jsp" />
-</body>
+    </body>
+</main>
 </html>

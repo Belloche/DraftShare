@@ -7,20 +7,22 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
 <head>
     <title>DraftShare - Success!</title>
     <link rel="stylesheet" href="master.css" />
     <c:import url="bootstrap.jsp" />
 </head>
-<body>
+<main>
+    <body>
     <c:import url="nav.jsp" />
     <div class="container bg-white userDiv" align="center">
         <h2>Success!</h2>
         <p>Your Draft was created!</p>
         <p>If you would like to view your draft click <a href="viewDraft?draft=${id}">Here</a></p>
-        <p>To go back to the homepage click <a href="/home">Here</a></p>
+        <p>To go back to the homepage click <a href="/DraftShare/home">Here</a></p>
     </div>
     <c:import url="footer.jsp" />
-</body>
+    </body>
+</main>
 </html>

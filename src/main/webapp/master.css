@@ -3,6 +3,14 @@ html {
     min-height: 100%;
 }
 
+.mainTitle {
+    border: solid #0773D6 6px;
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    max-width: 20em;
+}
+
 body {
     background-color: #A7C7E7 !important;
     margin: 0 0 100px !important;
@@ -28,6 +36,10 @@ body {
     /*background-color: darkgreen;*/
     color: white !important;
     background-color: #5E0014;
+}
+
+a {
+    color: #0054B3;
 }
 
 .left {

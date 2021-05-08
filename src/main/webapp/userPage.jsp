@@ -7,13 +7,14 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="en">
 <head>
     <title>DraftShare - User</title>
     <link rel="stylesheet" href="master.css" />
     <c:import url="bootstrap.jsp" />
 </head>
-<body>
+<main>
+    <body>
     <c:import url="nav.jsp" />
 
     <div class="container bg-white userDiv" align="center">
@@ -27,9 +28,9 @@
         <h3>Your Credentials</h3>
         <p>Username: <b>${user.getUsername()}</b></p>
         <p>Password: <b>${user.getPassword()}</b></p>
-        <a href="/DraftShare_war/changePassword.jsp" class="link-primary">Change Password</a>
+        <a href="/DraftShare/changePassword.jsp" class="link-primary">Change Password</a>
         <br />
-        <a href="/DraftShare_war/logOut.jsp"><button class="btn btn-danger m-3">Log Out</button></a>
+        <a href="/DraftShare/logOut.jsp"><button class="btn btn-danger m-3">Log Out</button></a>
     </div>
 
     <c:if test="${!not empty userDrafts}">
@@ -45,21 +46,27 @@
             <p>User: ${draft.getUser()}</p>
             <p>Description: ${draft.getDescription()}</p>
             <table class="thumbnail">
-                <tr>
-                    <td>1.</td>
-                    <td><img src="images/${draft.getTeam1()}.png" alt="${draft.getTeam1()}"></td>
-                    <td class="player">${draft.getPick1()}</td>
-                </tr>
-                <tr>
-                    <td>2.</td>
-                    <td><img src="images/${draft.getTeam2()}.png" alt="${draft.getTeam2()}"></td>
-                    <td class="player">${draft.getPick2()}</td>
-                </tr>
-                <tr>
-                    <td>3.</td>
-                    <td><img src="images/${draft.getTeam3()}.png" alt="${draft.getTeam3()}"></td>
-                    <td class="player">${draft.getPick3()}</td>
-                </tr>
+                <c:if test="${not empty draft.getPick1()}">
+                    <tr>
+                        <td>1.</td>
+                        <td><img src="images/${draft.getTeam1()}.png" alt="${draft.getTeam1()}"></td>
+                        <td class="player">${draft.getPick1()}</td>
+                    </tr>
+                </c:if>
+                <c:if test="${not empty draft.getPick2()}">
+                    <tr>
+                        <td>2.</td>
+                        <td><img src="images/${draft.getTeam2()}.png" alt="${draft.getTeam2()}"></td>
+                        <td class="player">${draft.getPick2()}</td>
+                    </tr>
+                </c:if>
+                <c:if test="${not empty draft.getPick3()}">
+                    <tr>
+                        <td>3.</td>
+                        <td><img src="images/${draft.getTeam3()}.png" alt="${draft.getTeam3()}"></td>
+                        <td class="player">${draft.getPick3()}</td>
+                    </tr>
+                </c:if>
             </table>
             <p>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></p>
             <a href="viewDraft?draft=${draft.getId()}">View Full Draft</a>
@@ -68,5 +75,6 @@
         </div>
     </c:forEach>
     <c:import url="footer.jsp" />
-</body>
+    </body>
+</main>
 </html>
