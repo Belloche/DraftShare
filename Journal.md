@@ -120,3 +120,7 @@ I added a lot of features and new stylings and a footer. I need to get rid of th
 5-7-21
 
 I removed getLogo from the project since it wasn't necessary. I added User Tests but now my cleandb won't run again, most tests fail or time out.
+
+5-8-21
+
+Tests don't pass but I'm adding to the stylings and html to make DraftShare pass the axe tests for accessibility.

@@ -24,3 +24,4 @@
 | 5-5-21 | Implemented Lombok, shortened code | 3 | I shortened over 2k lines of code total in my project by using Lombok on my entities and using c:imports on the position selection |
 | 5-6-21 | Added footer, search, delete, logout, and better stylings | 6 | I added a footer, implemented the Delete in User Stories, a log out and a draft search. I also updated a lot of stylings |
 | 5-7-21 | Removed getLogo(), added Validation, added UserTests | 4 | I removed getLogo, added Validation, and User Tests but they fail |
+| 5-8-21 | Added to HTML and CSS for accessibility | 2 | I deployed the project to AWS and ran axe tests on it, still modifying code to pass for accessibility |

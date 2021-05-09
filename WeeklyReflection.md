@@ -87,3 +87,14 @@ Tasks Completed:
 * Working on a logout button
 
 I'm starting implementation on Lombok finally, it should shrink file size a considerable amount since some of my Entities are thousands of lines long. I also need to add upvote and downvote, which shouldn't take long, a password change, and a search, which should also be easy enough to implement. Anxiety ensues with the final week of work that I have.
+
+### Week 15
+
+Tasks Completed:
+* All features working
+* Search all drafts working
+* Updated HTML and CSS for accessibility (WIP)
+* Fixed Draft Tests for 90% coverage
+* Added Lombok
+
+That was a rough week. My project is almost done, I need to finish tests, add documentation, and finish HTML and CSS to pass accessibility tests, but then I just need to make a presentation.
