@@ -41,7 +41,7 @@
 - [ ] Final Presentation
 - [ ] Create video with link on README.md
 - [ ] Quality Check
-- [ ] Journal Updates
-- [ ] Weekly Reflections
+- [x] Journal Updates
+- [x] Weekly Reflections
 - [ ] Final touches
 - [ ] Finish Project

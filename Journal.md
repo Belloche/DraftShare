@@ -124,3 +124,7 @@ I removed getLogo from the project since it wasn't necessary. I added User Tests
 5-8-21
 
 Tests don't pass but I'm adding to the stylings and html to make DraftShare pass the axe tests for accessibility.
+
+5-9-21
+
+I have renamed my test class for Drafts to DraftTests and it passes with 90% coverage, and I have also created a UserTests class that has 83% coverage. I would have more but yesterday and today I have work at 1 to 10 so I have to stop now.

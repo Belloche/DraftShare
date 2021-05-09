@@ -25,3 +25,4 @@
 | 5-6-21 | Added footer, search, delete, logout, and better stylings | 6 | I added a footer, implemented the Delete in User Stories, a log out and a draft search. I also updated a lot of stylings |
 | 5-7-21 | Removed getLogo(), added Validation, added UserTests | 4 | I removed getLogo, added Validation, and User Tests but they fail |
 | 5-8-21 | Added to HTML and CSS for accessibility | 2 | I deployed the project to AWS and ran axe tests on it, still modifying code to pass for accessibility |
+| 5-9-21 | UserTests running with 83% coverage | 2 | I now have 2 unit test classes written and both have at least 83% coverage |
