@@ -15,14 +15,12 @@ body {
     background-color: #A7C7E7 !important;
     margin: 0 0 100px !important;
 }
-/*00B8EB alternate color*/
 
 .navBar {
     overflow: hidden;
     background-color: #91001E;
     text-decoration: none;
 }
-/*F5002D alternate bright red*/
 
 .navBar a {
     color: white;
@@ -33,20 +31,61 @@ body {
 }
 .navTransition:hover {
     transition: 0.2s;
-    /*background-color: darkgreen;*/
     color: white !important;
     background-color: #5E0014;
 }
 
-a {
-    color: #0054B3;
+/**
+    NavBar Collapser
+ */
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #6e0017;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 }
 
-.left {
-    float: left;
+#sidebar a, #sidebar b {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
 }
-.right {
-    float: right;
+
+#sidebar .closeButton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openButton {
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.blueLink {
+    color: #0054B3 !important;
+}
+
+.btn-primary {
+    background-color: #0054B3 !important;
+}
+
+.btn-success {
+    background-color: #17631D !important;
 }
 
 .logo {
@@ -54,12 +93,7 @@ a {
 }
 
 .container {
-    /*background-color: white;*/
-    /*padding-right: 15px;*/
-    /*padding-left: 15px;*/
     margin-top: 2em;
-    /*margin-right: auto;*/
-    /*margin-left: auto;*/
     border: solid #0773D6 6px;
     border-radius: 20px;
     width: auto;
@@ -106,10 +140,6 @@ form {
 input {
     max-width: 10em;
 }
-
-/*.form td {*/
-/*    width: auto;*/
-/*}*/
 
 .thumbnail {
     width: 50%;
@@ -177,6 +207,13 @@ footer {
     .form input, .form select {
         max-width: 3.5em;
     }
+
+    .collapseNav {
+        display: none;
+    }
+    .openButton, #spaceButton {
+        display: block;
+    }
 }
 @media (min-width: 768px) {
     .draftTable {
@@ -184,6 +221,12 @@ footer {
     }
     .form input, .form select {
         max-width: 5em;
+    }
+    .collapseNav {
+        display: block;
+    }
+    .openButton {
+        display: none !important;
     }
 }
 @media (min-width: 992px) {
@@ -202,31 +245,3 @@ footer {
         max-width: 10em;
     }
 }
-
-
-/*@media (min-width: 768px) {*/
-/*    .container {*/
-/*        width: 750px;*/
-/*    }*/
-/*    .draft {*/
-/*        width: 503px;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 992px) {*/
-/*    .form td {*/
-/*        max-width: 6em;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 1200px) {*/
-/*    .form td {*/
-/*        max-width: 10em;*/
-/*    }*/
-/*}*/
-/*@media (min-width: 1200px) {*/
-/*    .container {*/
-/*        width: 1170px;*/
-/*    }*/
-/*    .draft {*/
-/*        width: 804px;*/
-/*    }*/
-/*}*/

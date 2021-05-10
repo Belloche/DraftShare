@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </fieldset>
-            <h3>For Accurate Results</h3>
+            <h2>For Accurate Results</h2>
             <p>Please enter the exact name of the draft or user you are searching for</p>
 
             <div class="form-group row">
@@ -93,7 +93,7 @@
                             </c:if>
                         </table>
                         <p>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></p>
-                        <a href="viewDraft?draft=${draft.getId()}">View Full Draft</a>
+                        <a href="viewDraft?draft=${draft.getId()}" class="blueLink">View Full Draft</a>
                     </div>
                 </c:forEach>
             </div>

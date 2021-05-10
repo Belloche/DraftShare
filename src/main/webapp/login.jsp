@@ -17,7 +17,7 @@
     <body>
     <c:import url="nav.jsp" />
     <div align="center" class="container bg-white formDiv">
-        <h2>Login</h2>
+        <h1>Login</h1>
         <form action="j_security_check" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
@@ -30,7 +30,7 @@
 
             <button type="submit" class="btn btn-primary mb-2">Log In</button>
         </form>
-        <p>Need to Create an Account? <a href="/DraftShare/register.jsp" class="link-primary">Register Here</a></p>
+        <p>Need to Create an Account? <a href="/DraftShare/register.jsp" class="blueLink">Register Here</a></p>
     </div>
     <c:import url="footer.jsp" />
     </body>

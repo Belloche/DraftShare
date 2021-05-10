@@ -25,10 +25,10 @@
             </div>
         </c:if>
         <h1>Welcome Back, ${user.getUsername()}!</h1>
-        <h3>Your Credentials</h3>
+        <h2>Your Credentials</h2>
         <p>Username: <b>${user.getUsername()}</b></p>
         <p>Password: <b>${user.getPassword()}</b></p>
-        <a href="/DraftShare/changePassword.jsp" class="link-primary">Change Password</a>
+        <a href="/DraftShare/changePassword.jsp">Change Password</a>
         <br />
         <a href="/DraftShare/logOut.jsp"><button class="btn btn-danger m-3">Log Out</button></a>
     </div>
@@ -69,7 +69,7 @@
                 </c:if>
             </table>
             <p>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></p>
-            <a href="viewDraft?draft=${draft.getId()}">View Full Draft</a>
+            <a href="viewDraft?draft=${draft.getId()}" class="blueLink">View Full Draft</a>
             <br />
             <a href="confirm?id=${draft.getId()}"><button class="btn btn-danger m-2">Delete Draft</button></a>
         </div>

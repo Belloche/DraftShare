@@ -17,7 +17,7 @@
     <body>
     <c:import url="nav.jsp" />
     <div class="container bg-white userDiv" align="center">
-        <h2>Success!</h2>
+        <h1>Success!</h1>
         <p>Your Account has been created!</p>
         <p>Your username is: <b>${user.getUsername()}</b></p>
         <p>Your password is: <b>${user.getPassword()}</b></p>

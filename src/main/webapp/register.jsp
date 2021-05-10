@@ -17,10 +17,10 @@
     <body>
     <c:import url="nav.jsp" />
     <div action="registerUser" class="container bg-white formDiv" align="center">
-        <h2>Create an Account</h2>
+        <h1>Create an Account</h1>
         <form action="registerUser" method="post">
             <div class="form-group">
-                <label for="username">Username (Between 8 and 16 Letters or Numbers Long)</label>
+                <label for="username">Username (Between 8 and 15 Letters or Numbers Long)</label>
                 <input type="text" pattern="[\w.-]{8,16}" class="form-control" id="username" name="username" required />
             </div>
             <div class="form-group">

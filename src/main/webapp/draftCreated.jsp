@@ -17,10 +17,10 @@
     <body>
     <c:import url="nav.jsp" />
     <div class="container bg-white userDiv" align="center">
-        <h2>Success!</h2>
+        <h1>Success!</h1>
         <p>Your Draft was created!</p>
-        <p>If you would like to view your draft click <a href="viewDraft?draft=${id}">Here</a></p>
-        <p>To go back to the homepage click <a href="/DraftShare/home">Here</a></p>
+        <p>If you would like to view your draft click <a href="viewDraft?draft=${id}" class="blueLink">Here</a></p>
+        <p>To go back to the homepage click <a href="/DraftShare/home" class="blueLink">Here</a></p>
     </div>
     <c:import url="footer.jsp" />
     </body>

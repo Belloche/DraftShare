@@ -128,3 +128,7 @@ Tests don't pass but I'm adding to the stylings and html to make DraftShare pass
 5-9-21
 
 I have renamed my test class for Drafts to DraftTests and it passes with 90% coverage, and I have also created a UserTests class that has 83% coverage. I would have more but yesterday and today I have work at 1 to 10 so I have to stop now.
+
+5-10-21
+
+All tests are passing with >80% coverage!

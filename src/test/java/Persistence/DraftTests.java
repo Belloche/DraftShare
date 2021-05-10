@@ -25,7 +25,7 @@ public class DraftTests {
     */
     @Test
     void getDraftByIdSuccess() {
-        Draft retrievedDraft = (Draft)draftDao.getById(1);
+        Draft retrievedDraft = (Draft) draftDao.getById(1);
         assertEquals(1, retrievedDraft.getId());
         assertEquals("testDraft", retrievedDraft.getDraftName());
     }
