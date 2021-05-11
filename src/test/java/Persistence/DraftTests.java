@@ -8,9 +8,18 @@ import testUtils.Database;
 import java.util.List;
 import static org.junit.Assert.*;
 
+/**
+ * The Unit Tests for the Draft object
+ */
 public class DraftTests {
+    /**
+     * The Draft dao using the ProjectDAO (GenericDAO)
+     */
     ProjectDao draftDao;
 
+    /**
+     * Sets up the database before each test
+     */
     @BeforeEach
     void setUp() {
 
@@ -21,8 +30,8 @@ public class DraftTests {
     }
 
     /**
-    * Draft Tests
-    */
+     * Tests that a draft was successfully retrieved from the database by id
+     */
     @Test
     void getDraftByIdSuccess() {
         Draft retrievedDraft = (Draft) draftDao.getById(1);
@@ -30,6 +39,9 @@ public class DraftTests {
         assertEquals("testDraft", retrievedDraft.getDraftName());
     }
 
+    /**
+     * Tests for a successful insertion of a draft into the database
+     */
     @Test
     void insertDraftSuccess() {
         Draft newDraft = new Draft();
@@ -370,6 +382,9 @@ public class DraftTests {
         assertEquals("Team 32", insertedDraft.getTeam32());
     }
 
+    /**
+     * Tests that the specified draft was updated successfully
+     */
     @Test
     void updateDraftSuccess() {
         String newPick = "Brett Favre";
@@ -380,12 +395,18 @@ public class DraftTests {
         assertEquals(newPick, draftAfterUpdate.getPick1());
     }
 
+    /**
+     * Tests that the specified draft was deleted successfully
+     */
     @Test
     void deleteDraftSuccess() {
         draftDao.delete(draftDao.getById(2));
         assertNull(draftDao.getById(2));
     }
 
+    /**
+     * Tests for the right number of drafts retrieved from the database was correct
+     */
     @Test
     void getAllDraftsSuccess() {
         List<Draft> Drafts = draftDao.getAll();

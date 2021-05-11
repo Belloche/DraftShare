@@ -10,9 +10,18 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
+/**
+ * The Unit Tests for the Role Entity
+ */
 public class RoleTests {
+    /**
+     * The Role dao using the ProjectDAO (GenericDAO)
+     */
     ProjectDao roleDao;
 
+    /**
+     * Sets up the database before each test
+     */
     @BeforeEach
     void setUp() {
         Database database = Database.getInstance();
@@ -21,7 +30,7 @@ public class RoleTests {
     }
 
     /**
-     * Role Tests
+     * Tests that a role was successfully retrieved from the database by id
      */
     @Test
     void getRoleByIdSuccess() {
@@ -32,6 +41,9 @@ public class RoleTests {
         assertEquals("pwaite", retrievedRole.getUserName());
     }
 
+    /**
+     * Tests for a successful insertion of a role into the database
+     */
     @Test
     void insertRoleSuccess() {
         Role newRole = new Role();
@@ -47,6 +59,9 @@ public class RoleTests {
         assertEquals(1, insertedRole.getUserId());
     }
 
+    /**
+     * Tests that the specified role was updated successfully
+     */
     @Test
     void updateRoleSuccess() {
         String newRoleName = "newRoleName";
@@ -57,12 +72,18 @@ public class RoleTests {
         assertEquals(newRoleName, roleAfterUpdate.getRoleName());
     }
 
+    /**
+     * Tests that the specified role was deleted successfully
+     */
     @Test
     void deleteRoleSuccess() {
         roleDao.delete(roleDao.getById(3));
         assertNull(roleDao.getById(3));
     }
 
+    /**
+     * Tests for the right number of roles retrieved from the database was correct
+     */
     @Test
     void getAllRolesSuccess() {
         List<Role> roles = roleDao.getAll();
