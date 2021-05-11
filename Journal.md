@@ -135,4 +135,4 @@ All tests are passing with >80% coverage! I added documentation to all files in 
 
 5-11-21
 
-I've done some final polish and I'm confident in where my project is now. Time to make a presentation to add it to the README and then I'm all done.
+I've done some final polish and I'm confident in where my project is now. Time to make a presentation to add it to the README and then I'm all done. (Later) Now that my presentation is done all I can do is cross my fingers I get at least a 45% and pass the semester.
