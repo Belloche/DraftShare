@@ -98,3 +98,11 @@ Tasks Completed:
 * Added Lombok
 
 That was a rough week. My project is almost done, I need to finish tests, add documentation, and finish HTML and CSS to pass accessibility tests, but then I just need to make a presentation.
+
+### Week 16
+
+Tasks Completed:
+* Finished Project
+* Uploaded Presentation
+
+I really hope I can at least get a 45% on it, I like my project and I'd feel so bad if it turns out I did a really bad job.
