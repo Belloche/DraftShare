@@ -12,6 +12,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Servlet that takes entered credentials and inserts a user into the DB and forwards to the userPage with
+ * the credentials and a confirmation message
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/registerUser"
 )
@@ -37,7 +43,9 @@ public class Register extends HttpServlet {
 
         roleDao.insert(newRole);
 
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userCreated.jsp");
+        req.setAttribute("created", "true");
+
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/userPage");
         dispatcher.forward(req, res);
     }
 }

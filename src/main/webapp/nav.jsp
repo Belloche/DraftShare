@@ -17,14 +17,17 @@
     }
 </script>
 <nav class="navBar">
-    <b class="collapseNav"><a href="/DraftShare/home" aria-label="Home" class="navTransition logo left text-decoration-none">DraftShare</a></b>
+    <b><a href="/DraftShare/home" aria-label="Home" class="navTransition logo left text-decoration-none">DraftShare</a></b>
     <a href="/DraftShare/creator" class="navTransition text-left text-decoration-none collapseNav">Create a Draft</a>
     <a href="/DraftShare/search" class="navTransition logo left text-decoration-none collapseNav">Search Drafts</a>
     <a href="/DraftShare/about.jsp" class="navTransition logo left text-decoration-none collapseNav">About</a>
     <a href="/DraftShare/userPage" class="navTransition logo left text-decoration-none collapseNav">Your Page</a>
 
-    <p id="spaceButton"></p>
-    <button class="openButton btn btn-primary" onclick="openNav()">Open Menu</button>
+    <button class="openButton btn btn-primary" onclick="openNav()">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+    </button>
 </nav>
 
 <div id="sidebar">

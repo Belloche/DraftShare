@@ -16,7 +16,8 @@
 <main>
     <body>
     <c:import url="nav.jsp" />
-    <div class="container bg-white formDiv">
+    <div class="container bg-white formDiv" align="center">
+        <h1>Change Your Password</h1>
         <c:if test="${incorrect.equals('true')}">
             <div class="alert alert-danger">
                 <h4 class="alert-heading">Incorrect Password</h4>
@@ -25,10 +26,10 @@
         </c:if>
         <form action="changePassword">
             <div class="form-group justify-content-center">
-                <label for="oldPassword">Old Password</label>
+                <label for="oldPassword"><b>Old Password</b></label>
                 <input type="password" class="form-control" id="oldPassword" name="oldPassword" required />
 
-                <label for="newPassword">New Password (between 8 and 32 characters)</label>
+                <label for="newPassword"><b>New Password</b> (between 8 and 32 characters)</label>
                 <input type="password" pattern=".{8-32}" class="form-control" id="newPassword" name="newPassword" required />
 
                 <button class="btn btn-success mb-2 mt-2" type="submit" id="submitChange">Change Password</button>

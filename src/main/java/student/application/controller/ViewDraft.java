@@ -13,6 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.sql.rowset.serial.SerialException;
 import java.io.IOException;
 
+/**
+ * Servlet that queries the database with the entered parameter and forwards the results to viewDraft.jsp
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = {"/viewDraft"}
 )

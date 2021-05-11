@@ -8,6 +8,11 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 
+/**
+ * The User Entity with Project Lombok implemented
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @Entity(name = "User")
 @Table(name = "user")
 @Getter

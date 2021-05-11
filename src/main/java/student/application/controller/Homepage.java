@@ -14,10 +14,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import student.application.persistence.ProjectDao;
 
+/**
+ * Servlet that calls DAO getAll() for drafts and forwards it to the index for a homepage
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = {"/home"}
 )
-
 public class Homepage extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 

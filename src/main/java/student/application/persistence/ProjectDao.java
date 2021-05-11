@@ -10,10 +10,22 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * The GenericDAO for the project
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ *
+ * @param <T> the type parameter
+ */
 public class ProjectDao<T> {
     private Class<T> type;
     private  final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Instantiates a new ProjectDAO
+     *
+     * @param type the type being used
+     */
     public ProjectDao(Class<T> type) {
         this.type = type;
     }
@@ -22,6 +34,13 @@ public class ProjectDao<T> {
         return SessionFactoryProvider.getSessionFactory().openSession();
     }
 
+    /**
+     * Queries the database with an id
+     *
+     * @param <T> the type parameter
+     * @param id  the id
+     * @return the Object specified by type
+     */
     public<T>T getById(int id) {
         Session session = getSession();
         T entity = (T)session.get(type, id);
@@ -29,6 +48,11 @@ public class ProjectDao<T> {
         return entity;
     }
 
+    /**
+     * Queries the database with a save or update query
+     *
+     * @param object the object specified by the type
+     */
     public void saveOrUpdate(T object) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -37,6 +61,12 @@ public class ProjectDao<T> {
         session.close();
     }
 
+    /**
+     * Queries the database with an insert query to add a record to the database
+     *
+     * @param entity the entity being inserted
+     * @return the id of the new record
+     */
     public int insert(T entity) {
         int id = 0;
         Session session = getSession();
@@ -47,6 +77,11 @@ public class ProjectDao<T> {
         return id;
     }
 
+    /**
+     * Queries the database with a delete query
+     *
+     * @param entity the entity being deleted from the database
+     */
     public void delete(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -55,6 +90,13 @@ public class ProjectDao<T> {
         session.close();
     }
 
+    /**
+     * Queries the database with a specified property
+     *
+     * @param propertyName the property name to be searched
+     * @param value        the value being searched in the database
+     * @return the list of matching records
+     */
     public List<T> findByPropertyEqual(String propertyName, Object value) {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
@@ -65,6 +107,11 @@ public class ProjectDao<T> {
         return session.createQuery(query).getResultList();
     }
 
+    /**
+     * Gets all of a specified object from the database
+     *
+     * @return List of matching records
+     */
     public List<T> getAll() {
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();

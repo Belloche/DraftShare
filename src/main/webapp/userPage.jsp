@@ -18,6 +18,12 @@
     <c:import url="nav.jsp" />
 
     <div class="container bg-white userDiv" align="center">
+        <c:if test="${not empty created}">
+            <div class="alert alert-danger">
+                <h2 class="alert-heading">Account Created Successfully!</h2>
+                <p>Here you can view your credentials. Now you can create and share your own NFL mock drafts!</p>
+            </div>
+        </c:if>
         <c:if test="${not empty deleted}">
             <div class="alert alert-danger">
                 <h2 class="alert-heading">Success!</h2>
@@ -30,7 +36,7 @@
         <p>Password: <b>${user.getPassword()}</b></p>
         <a href="/DraftShare/changePassword.jsp">Change Password</a>
         <br />
-        <a href="/DraftShare/logOut.jsp"><button class="btn btn-danger m-3">Log Out</button></a>
+        <a href="/DraftShare/logOut"><button class="btn btn-danger m-3">Log Out</button></a>
     </div>
 
     <c:if test="${!not empty userDrafts}">

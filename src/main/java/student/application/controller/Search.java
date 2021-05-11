@@ -14,6 +14,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Servlet that takes an entered search term and selected search type and queries the database for any drafts matching
+ * the variables
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/search"
 )
@@ -31,9 +37,7 @@ public class Search extends HttpServlet {
             results = dao.findByPropertyEqual(searchType, searchTerm);
 
             if (results.isEmpty()) {
-                logger.info("Empty Search Results");
                 req.setAttribute("emptyResults", "true");
-                logger.info(req.getAttribute("emptyResults"));
             }
 
             req.setAttribute("results", results);

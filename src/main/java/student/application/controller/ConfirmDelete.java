@@ -13,6 +13,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * Servlet for the Confirmation of Deleting a Draft
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/confirm"
 )

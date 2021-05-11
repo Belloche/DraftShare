@@ -131,4 +131,4 @@ I have renamed my test class for Drafts to DraftTests and it passes with 90% cov
 
 5-10-21
 
-All tests are passing with >80% coverage!
+All tests are passing with >80% coverage! I added documentation to all files in the Java package, fixed up some methods that were doing a little too much work, and reworked some servlets to get rid of a couple unnecessary jsp's. Redeploying soon and that should be it (knock on wood).

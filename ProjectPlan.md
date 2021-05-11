@@ -40,8 +40,8 @@
 - [x] get people to add drafts
 - [ ] Final Presentation
 - [ ] Create video with link on README.md
-- [ ] Quality Check
+- [x] Quality Check
 - [x] Journal Updates
 - [x] Weekly Reflections
-- [ ] Final touches
+- [x] Final touches
 - [ ] Finish Project

@@ -18,6 +18,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
 
+/**
+ * Servlet that takes JSON response of colleges, puts the names in a SortedSet, and forwards to the draft
+ * creator where the SortedSet is used as a dropdown
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/creator"
 )
@@ -26,13 +32,29 @@ public class GetCreator extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
+        URL url = new URL("http://universities.hipolabs.com/search?country=United%20States");
+        SortedSet<String> universities = getResponse(url);
+
+        req.setAttribute("universities", universities);
+
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/createDraft.jsp");
+        dispatcher.forward(req, res);
+    }
+
+    /**
+     * Method that returns a SortedSet of college names from the URL
+     *
+     * @param url the url of the JSON response with colleges
+     * @return the SortedSet of college names
+     */
+    public SortedSet<String> getResponse(URL url) {
         HttpURLConnection connection;
         BufferedReader reader;
         String line;
         StringBuffer stringBuffer = new StringBuffer();
         SortedSet<String> universities = new TreeSet<String>();
+
         try {
-            URL url = new URL("http://universities.hipolabs.com/search?country=United%20States");
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
 
@@ -54,9 +76,6 @@ public class GetCreator extends HttpServlet {
             logger.error(exc);
         }
 
-        req.setAttribute("universities", universities);
-
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/createDraft.jsp");
-        dispatcher.forward(req, res);
+        return universities;
     }
 }

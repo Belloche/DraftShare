@@ -16,6 +16,11 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * Servlet for Adding a Draft to the DB and forwarding to a confirmation page
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/createDraft"
 )

@@ -16,13 +16,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Servlet that queries database with the logged in user and forwards to userPage.jsp with credentials
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/userPage"
 )
 public class UserPage extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-        ProjectDao dao = new ProjectDao(User.class);
         ProjectDao draftDao = new ProjectDao(Draft.class);
         GetUserByName getUser = new GetUserByName();
         User retrievedUser = getUser.getUserByName(req.getUserPrincipal().getName());

@@ -15,6 +15,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Servlet that checks if the entered current password is correct, then updates the password to the new one
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
+ */
 @WebServlet(
         urlPatterns = "/changePassword"
 )
@@ -24,22 +29,13 @@ public class PasswordReset extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         ProjectDao dao = new ProjectDao(User.class);
         User newPasswordUser = new User();
+        GetUserByName getUserByName = new GetUserByName();
+
         String oldPassword = req.getParameter("oldPassword");
         String newPassword = req.getParameter("newPassword");
         RequestDispatcher dispatcher;
-        User oldUser = null;
-        String currentPassword = "";
-
-        List<User> userList = dao.findByPropertyEqual("username", req.getRemoteUser());
-
-        for (User user : userList) {
-            oldUser = user;
-            currentPassword = oldUser.getPassword();
-        }
-
-        logger.info("UserName: " + req.getRemoteUser());
-        logger.info("Password: " + currentPassword);
-        logger.info("User: " + oldUser.getUsername());
+        User oldUser = getUserByName.getUserByName(req.getUserPrincipal().getName());
+        String currentPassword = oldUser.getPassword();
 
         if (oldPassword.equals(currentPassword)) {
             newPasswordUser.setUsername(oldUser.getUsername());
