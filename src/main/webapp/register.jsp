@@ -24,7 +24,7 @@
                 <input type="text" pattern="[\w.-]{8,16}" class="form-control" id="username" name="username" required />
             </div>
             <div class="form-group">
-                <label for="password">Password (Between 8 and 32 Characters Long</label>
+                <label for="password">Password (Between 8 and 32 Characters Long)</label>
                 <input type="password" pattern=".{8-32}" class="form-control" id="password" name="password" required />
             </div>
 

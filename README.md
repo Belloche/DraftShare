@@ -22,6 +22,8 @@ nothing facts you'll be able to give your view of how the draft will fall.
 * Project Lombok
 * Hipo University API
 * Bootstrap CSS Framework
+* Hibernate Annotations
+* org.json Toolkit
 
 I'm using Project Lombok to take care of A LOT of line length in the entities. My draft table has over 100 different,
 so cutting down on that length is crucial. I also found an api of a list of colleges that will make selecting a player's

@@ -23,7 +23,7 @@
     <a href="/DraftShare/about.jsp" class="navTransition logo left text-decoration-none collapseNav">About</a>
     <a href="/DraftShare/userPage" class="navTransition logo left text-decoration-none collapseNav">Your Page</a>
 
-    <button class="openButton btn btn-primary" onclick="openNav()">
+    <button class="openButton btn btn-primary" onclick="openNav()" role="open menu">
         <div class="hamburger"></div>
         <div class="hamburger"></div>
         <div class="hamburger"></div>
@@ -31,7 +31,7 @@
 </nav>
 
 <div id="sidebar">
-    <a href="javascript:void(0)" class="closeButton" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="closeButton" onclick="closeNav()" role="close menu">&times;</a>
     <b><a href="/DraftShare/home" aria-label="Home" class="navTransition logo left text-decoration-none">DraftShare</a></b>
     <a href="/DraftShare/creator" class="navTransition text-left text-decoration-none">Create a Draft</a>
     <a href="/DraftShare/search" class="navTransition logo left text-decoration-none">Search Drafts</a>

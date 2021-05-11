@@ -13,7 +13,8 @@
             </div>
         </c:if>
         <div class="mainTitle mt-2 bg-white container">
-            <h1>DraftShare</h1>
+            <h1>Home</h1>
+            <h2>View All Drafts</h2>
         </div>
 
 

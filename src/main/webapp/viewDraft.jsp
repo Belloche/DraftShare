@@ -24,10 +24,12 @@
             <h4>Votes: <span class="upvoteCount">${draft.getUpvotes()}</span> | <span class="downvoteCount">${draft.getDownvotes()}</span></h4>
             <h4>Description</h4>
             <p>${draft.getDescription()}</p>
-            <div class="row justify-content-center">
-                <a href="/DraftShare/vote?id=${draft.getId()}&vote=up"><button class="btn btn-success mr-1">Upvote</button></a>
-                <a href="/DraftShare/vote?id=${draft.getId()}&vote=down"><button class="btn btn-danger ml-1">Downvote</button></a>
-            </div>
+            <c:if test="${!not empty author}">
+                <div class="row justify-content-center">
+                    <a href="/DraftShare/vote?id=${draft.getId()}&vote=up"><button class="btn btn-success mr-1">Upvote</button></a>
+                    <a href="/DraftShare/vote?id=${draft.getId()}&vote=down"><button class="btn btn-danger ml-1">Downvote</button></a>
+                </div>
+            </c:if>
         </div>
 
         <table class="fullDraft mt-3">
