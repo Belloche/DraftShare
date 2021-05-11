@@ -29,3 +29,6 @@ I'm using Project Lombok to take care of A LOT of line length in the entities. M
 so cutting down on that length is crucial. I also found an api of a list of colleges that will make selecting a player's
   school much easier. In order to keep css responsive I also implemented Bootstrap, that way the only element I needed
 to add styling to was the createDraft form. Man I love Bootstrap!
+
+### Presentation Link
+* Presentation: https://youtu.be/5LcaqhZSQ6Y
