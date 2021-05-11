@@ -38,10 +38,10 @@
 - [x] add team logos to editor
 - [x] user page
 - [x] get people to add drafts
-- [ ] Final Presentation
-- [ ] Create video with link on README.md
+- [x] Final Presentation
+- [x] Create video with link on README.md
 - [x] Quality Check
 - [x] Journal Updates
 - [x] Weekly Reflections
 - [x] Final touches
-- [ ] Finish Project
+- [x] Finish Project
