@@ -12,6 +12,8 @@ import static org.junit.Assert.*;
 
 /**
  * The Unit Tests for the Role Entity
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
  */
 public class RoleTests {
     /**

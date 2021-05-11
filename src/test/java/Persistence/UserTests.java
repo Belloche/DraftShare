@@ -11,6 +11,8 @@ import java.util.List;
 
 /**
  * The Unit Tests for the User Entity
+ * @author Zane Miller
+ * @version 1.0 5-10-2021
  */
 public class UserTests {
     /**
