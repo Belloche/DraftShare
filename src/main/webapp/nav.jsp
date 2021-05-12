@@ -16,6 +16,7 @@
         document.getElementsByClassName("navBar").style.marginLeft = "0";
     }
 </script>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 <nav class="navBar">
     <b><a href="/DraftShare/home" aria-label="Home" class="navTransition logo left text-decoration-none">DraftShare</a></b>
     <a href="/DraftShare/creator" class="navTransition text-left text-decoration-none collapseNav">Create a Draft</a>
